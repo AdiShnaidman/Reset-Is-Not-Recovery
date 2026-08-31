@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Behavioral controls with paired bootstrap 95\% CIs.}
+\label{tab:behavioral-controls-ci}
+\begin{tabular}{lllllll}
+\toprule
+model & dataset & condition\_or\_operation & correct\_reset\_pc & correct\_reset\_pw & neutral\_gap & pressure\_gap \\
+\midrule
+Mistral-7B & MMLU-Pro & controls & 0.892 [0.866, 0.917] & 0.010 [0.003, 0.019] & -0.016 [-0.033, 0.001] & 0.659 [0.619, 0.699] \\
+Mistral-7B & TruthfulQA-MC & controls & 0.840 [0.809, 0.870] & 0.042 [0.026, 0.059] & -0.011 [-0.030, 0.008] & 0.247 [0.205, 0.289] \\
+Qwen2.5-1.5B & MMLU-Pro & controls & 0.820 [0.789, 0.849] & 0.019 [0.010, 0.030] & -0.001 [-0.018, 0.016] & 0.634 [0.596, 0.672] \\
+Qwen2.5-1.5B & TruthfulQA-MC & controls & 0.630 [0.589, 0.671] & 0.119 [0.093, 0.146] & 0.016 [-0.009, 0.042] & 0.499 [0.456, 0.543] \\
+Qwen2.5-14B & MMLU-Pro & controls & 0.801 [0.766, 0.834] & 0.029 [0.015, 0.044] & -0.009 [-0.025, 0.007] & 0.272 [0.232, 0.312] \\
+Qwen2.5-14B & TruthfulQA-MC & controls & 0.821 [0.787, 0.854] & 0.050 [0.032, 0.070] & -0.001 [-0.020, 0.017] & 0.037 [0.010, 0.064] \\
+Qwen2.5-7B & MMLU-Pro & controls & 0.726 [0.686, 0.763] & 0.034 [0.020, 0.051] & -0.023 [-0.038, -0.008] & 0.262 [0.222, 0.303] \\
+Qwen2.5-7B & TruthfulQA-MC & controls & 0.738 [0.700, 0.777] & 0.063 [0.042, 0.084] & 0.001 [-0.022, 0.024] & 0.011 [-0.015, 0.038] \\
+\bottomrule
+\end{tabular}
+\end{table}

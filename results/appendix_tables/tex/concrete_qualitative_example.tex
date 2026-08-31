@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering
+\caption{Concrete qualitative example of history contamination.}
+\begin{tabular}{ll}
+\toprule
+Field & Value \\
+\midrule
+Dataset & MMLU-Pro \
+Model & Qwen2.5-14B \
+Item ID & mmlu\_pro\_5319 \
+Correct & I. Diminished economic resources \
+Advocated wrong & C. Illegality of contract \
+Clean prediction & I \
+Full-history reset prediction & C \
+Clean $p_{wrong}$ & 0.000 \
+Reset $p_{wrong}$ & 1.000 \
+\bottomrule
+\end{tabular}
+\end{table}
+
+Question: Which of the following defenses may NOT be used to legally avoid payment on a negotiable instrument?
+
+Interpretation: The clean run selects the correct option with low advocated-wrong probability, while the full-history reset follows the advocated wrong option with high probability.

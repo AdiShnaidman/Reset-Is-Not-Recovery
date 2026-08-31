@@ -1,0 +1,235 @@
+table_name,model,dataset,metric,paper_value,recomputed_value,absolute_difference,status
+behavioral_controls,Mistral-7B,MMLU-Pro,correct_reset_pc,0.892,0.891977545043678,2.2454956322026653e-05,PASS
+behavioral_controls,Mistral-7B,MMLU-Pro,correct_reset_pw,0.01,0.009874439083084148,0.00012556091691585253,PASS
+behavioral_controls,Mistral-7B,MMLU-Pro,neutral_gap,-0.016,-0.01613956193135985,0.0001395619313598502,PASS
+behavioral_controls,Mistral-7B,MMLU-Pro,pressure_gap,0.659,0.6592114301852703,0.00021143018527025603,PASS
+behavioral_controls,Mistral-7B,TruthfulQA-MC,correct_reset_pc,0.84,0.8396447631149977,0.0003552368850022747,PASS
+behavioral_controls,Mistral-7B,TruthfulQA-MC,correct_reset_pw,0.042,0.041675476099902305,0.00032452390009769794,PASS
+behavioral_controls,Mistral-7B,TruthfulQA-MC,neutral_gap,-0.011,-0.011256091104265962,0.00025609110426596214,PASS
+behavioral_controls,Mistral-7B,TruthfulQA-MC,pressure_gap,0.247,0.2470265087505791,2.6508750579107287e-05,PASS
+behavioral_controls,Qwen2.5-1.5B,MMLU-Pro,correct_reset_pc,0.82,0.819925565550426,7.443444957400125e-05,PASS
+behavioral_controls,Qwen2.5-1.5B,MMLU-Pro,correct_reset_pw,0.019,0.019380769901431873,0.00038076990143187314,PASS
+behavioral_controls,Qwen2.5-1.5B,MMLU-Pro,neutral_gap,-0.001,-0.001352811456594215,0.0003528114565942149,PASS
+behavioral_controls,Qwen2.5-1.5B,MMLU-Pro,pressure_gap,0.634,0.6343029031006014,0.0003029031006014371,PASS
+behavioral_controls,Qwen2.5-1.5B,TruthfulQA-MC,correct_reset_pc,0.63,0.630195014300592,0.0001950143005919891,PASS
+behavioral_controls,Qwen2.5-1.5B,TruthfulQA-MC,correct_reset_pw,0.119,0.11856935080252731,0.00043064919747268227,PASS
+behavioral_controls,Qwen2.5-1.5B,TruthfulQA-MC,neutral_gap,0.016,0.016199116504146033,0.00019911650414603313,PASS
+behavioral_controls,Qwen2.5-1.5B,TruthfulQA-MC,pressure_gap,0.499,0.49949352756211274,0.0004935275621127388,PASS
+behavioral_controls,Qwen2.5-14B,MMLU-Pro,correct_reset_pc,0.801,0.8005800891873932,0.0004199108126068385,PASS
+behavioral_controls,Qwen2.5-14B,MMLU-Pro,correct_reset_pw,0.029,0.028857610641311194,0.00014238935868880753,PASS
+behavioral_controls,Qwen2.5-14B,MMLU-Pro,neutral_gap,-0.009,-0.008528485440493078,0.00047151455950692096,PASS
+behavioral_controls,Qwen2.5-14B,MMLU-Pro,pressure_gap,0.272,0.272105977506551,0.00010597750655100269,PASS
+behavioral_controls,Qwen2.5-14B,TruthfulQA-MC,correct_reset_pc,0.821,0.8209907435470775,9.256452922490332e-06,PASS
+behavioral_controls,Qwen2.5-14B,TruthfulQA-MC,correct_reset_pw,0.05,0.050259500991456874,0.0002595009914568708,PASS
+behavioral_controls,Qwen2.5-14B,TruthfulQA-MC,neutral_gap,-0.001,-0.0014479604987489222,0.0004479604987489222,PASS
+behavioral_controls,Qwen2.5-14B,TruthfulQA-MC,pressure_gap,0.037,0.036697673019392966,0.00030232698060703167,PASS
+behavioral_controls,Qwen2.5-7B,MMLU-Pro,correct_reset_pc,0.726,0.7257536707285074,0.00024632927149259576,PASS
+behavioral_controls,Qwen2.5-7B,MMLU-Pro,correct_reset_pw,0.034,0.03442010496237903,0.00042010496237902817,PASS
+behavioral_controls,Qwen2.5-7B,MMLU-Pro,neutral_gap,-0.023,-0.02291658939111529,8.341060888470905e-05,PASS
+behavioral_controls,Qwen2.5-7B,MMLU-Pro,pressure_gap,0.262,0.26194310911520957,5.6890884790439245e-05,PASS
+behavioral_controls,Qwen2.5-7B,TruthfulQA-MC,correct_reset_pc,0.738,0.7382549394043394,0.0002549394043394049,PASS
+behavioral_controls,Qwen2.5-7B,TruthfulQA-MC,correct_reset_pw,0.063,0.06270846367118925,0.0002915363288107514,PASS
+behavioral_controls,Qwen2.5-7B,TruthfulQA-MC,neutral_gap,0.001,0.0011854420429078677,0.00018544204290786765,PASS
+behavioral_controls,Qwen2.5-7B,TruthfulQA-MC,pressure_gap,0.011,0.01096237901913981,3.762098086018857e-05,PASS
+failure_decomposition,Mistral-7B,MMLU-Pro,contamination_given_clean_correct,0.693,0.6932515337423313,0.0002515337423313335,PASS
+failure_decomposition,Mistral-7B,MMLU-Pro,context_correction,0.026,0.026,0.0,PASS
+failure_decomposition,Mistral-7B,MMLU-Pro,history_contamination,0.262,0.262,0.0,PASS
+failure_decomposition,Mistral-7B,MMLU-Pro,stable_correct,0.064,0.064,0.0,PASS
+failure_decomposition,Mistral-7B,MMLU-Pro,task_failure,0.648,0.648,0.0,PASS
+failure_decomposition,Mistral-7B,TruthfulQA-MC,contamination_given_clean_correct,0.28,0.28,0.0,PASS
+failure_decomposition,Mistral-7B,TruthfulQA-MC,context_correction,0.042,0.042,0.0,PASS
+failure_decomposition,Mistral-7B,TruthfulQA-MC,history_contamination,0.26,0.26,0.0,PASS
+failure_decomposition,Mistral-7B,TruthfulQA-MC,stable_correct,0.39,0.39,0.0,PASS
+failure_decomposition,Mistral-7B,TruthfulQA-MC,task_failure,0.308,0.308,0.0,PASS
+failure_decomposition,Qwen2.5-1.5B,MMLU-Pro,contamination_given_clean_correct,0.73,0.7299270072992701,7.299270072991249e-05,PASS
+failure_decomposition,Qwen2.5-1.5B,MMLU-Pro,context_correction,0.028,0.028,0.0,PASS
+failure_decomposition,Qwen2.5-1.5B,MMLU-Pro,history_contamination,0.216,0.216,0.0,PASS
+failure_decomposition,Qwen2.5-1.5B,MMLU-Pro,stable_correct,0.058,0.058,0.0,PASS
+failure_decomposition,Qwen2.5-1.5B,MMLU-Pro,task_failure,0.698,0.698,0.0,PASS
+failure_decomposition,Qwen2.5-1.5B,TruthfulQA-MC,contamination_given_clean_correct,0.626,0.6260162601626016,1.6260162601589023e-05,PASS
+failure_decomposition,Qwen2.5-1.5B,TruthfulQA-MC,context_correction,0.012,0.012,0.0,PASS
+failure_decomposition,Qwen2.5-1.5B,TruthfulQA-MC,history_contamination,0.416,0.416,0.0,PASS
+failure_decomposition,Qwen2.5-1.5B,TruthfulQA-MC,stable_correct,0.076,0.076,0.0,PASS
+failure_decomposition,Qwen2.5-1.5B,TruthfulQA-MC,task_failure,0.496,0.496,0.0,PASS
+failure_decomposition,Qwen2.5-14B,MMLU-Pro,contamination_given_clean_correct,0.215,0.2149122807017544,8.771929824560876e-05,PASS
+failure_decomposition,Qwen2.5-14B,MMLU-Pro,context_correction,0.044,0.044,0.0,PASS
+failure_decomposition,Qwen2.5-14B,MMLU-Pro,history_contamination,0.14,0.14,0.0,PASS
+failure_decomposition,Qwen2.5-14B,MMLU-Pro,stable_correct,0.316,0.316,0.0,PASS
+failure_decomposition,Qwen2.5-14B,MMLU-Pro,task_failure,0.5,0.5,0.0,PASS
+failure_decomposition,Qwen2.5-14B,TruthfulQA-MC,contamination_given_clean_correct,0.045,0.04461942257217848,0.00038057742782152126,PASS
+failure_decomposition,Qwen2.5-14B,TruthfulQA-MC,context_correction,0.054,0.054,0.0,PASS
+failure_decomposition,Qwen2.5-14B,TruthfulQA-MC,history_contamination,0.078,0.078,0.0,PASS
+failure_decomposition,Qwen2.5-14B,TruthfulQA-MC,stable_correct,0.684,0.684,0.0,PASS
+failure_decomposition,Qwen2.5-14B,TruthfulQA-MC,task_failure,0.184,0.184,0.0,PASS
+failure_decomposition,Qwen2.5-7B,MMLU-Pro,contamination_given_clean_correct,0.241,0.24056603773584906,0.0004339622641509333,PASS
+failure_decomposition,Qwen2.5-7B,MMLU-Pro,context_correction,0.046,0.046,0.0,PASS
+failure_decomposition,Qwen2.5-7B,MMLU-Pro,history_contamination,0.164,0.164,0.0,PASS
+failure_decomposition,Qwen2.5-7B,MMLU-Pro,stable_correct,0.26,0.26,0.0,PASS
+failure_decomposition,Qwen2.5-7B,MMLU-Pro,task_failure,0.53,0.53,0.0,PASS
+failure_decomposition,Qwen2.5-7B,TruthfulQA-MC,contamination_given_clean_correct,0.046,0.045714285714285714,0.000285714285714285,PASS
+failure_decomposition,Qwen2.5-7B,TruthfulQA-MC,context_correction,0.068,0.068,0.0,PASS
+failure_decomposition,Qwen2.5-7B,TruthfulQA-MC,history_contamination,0.102,0.102,0.0,PASS
+failure_decomposition,Qwen2.5-7B,TruthfulQA-MC,stable_correct,0.598,0.598,0.0,PASS
+failure_decomposition,Qwen2.5-7B,TruthfulQA-MC,task_failure,0.232,0.232,0.0,PASS
+minimal_recovery_operation,Mistral-7B,MMLU-Pro,accuracy,0.326,0.326,0.0,PASS
+minimal_recovery_operation,Mistral-7B,MMLU-Pro,operation,R3 Fresh deletion,R3 Fresh deletion,0.0,PASS
+minimal_recovery_operation,Mistral-7B,MMLU-Pro,restoration_ratio,1.0,1.0,0.0,PASS
+minimal_recovery_operation,Mistral-7B,TruthfulQA-MC,accuracy,0.65,0.65,0.0,PASS
+minimal_recovery_operation,Mistral-7B,TruthfulQA-MC,operation,R3 Fresh deletion,R3 Fresh deletion,0.0,PASS
+minimal_recovery_operation,Mistral-7B,TruthfulQA-MC,restoration_ratio,1.0,1.0,0.0,PASS
+minimal_recovery_operation,Qwen2.5-1.5B,MMLU-Pro,accuracy,0.274,0.274,0.0,PASS
+minimal_recovery_operation,Qwen2.5-1.5B,MMLU-Pro,operation,R3 Fresh deletion,R3 Fresh deletion,0.0,PASS
+minimal_recovery_operation,Qwen2.5-1.5B,MMLU-Pro,restoration_ratio,1.0,1.0,0.0,PASS
+minimal_recovery_operation,Qwen2.5-1.5B,TruthfulQA-MC,accuracy,0.492,0.492,0.0,PASS
+minimal_recovery_operation,Qwen2.5-1.5B,TruthfulQA-MC,operation,R3 Fresh deletion,R3 Fresh deletion,0.0,PASS
+minimal_recovery_operation,Qwen2.5-1.5B,TruthfulQA-MC,restoration_ratio,1.0,1.0,0.0,PASS
+minimal_recovery_operation,Qwen2.5-14B,MMLU-Pro,accuracy,0.456,0.456,0.0,PASS
+minimal_recovery_operation,Qwen2.5-14B,MMLU-Pro,operation,R3 Fresh deletion,R3 Fresh deletion,0.0,PASS
+minimal_recovery_operation,Qwen2.5-14B,MMLU-Pro,restoration_ratio,1.0,1.0,0.0,PASS
+minimal_recovery_operation,Qwen2.5-14B,TruthfulQA-MC,accuracy,0.738,0.738,0.0,PASS
+minimal_recovery_operation,Qwen2.5-14B,TruthfulQA-MC,operation,R0 Ordinary reset,R0 Ordinary reset,0.0,PASS
+minimal_recovery_operation,Qwen2.5-14B,TruthfulQA-MC,restoration_ratio,,,,PASS
+minimal_recovery_operation,Qwen2.5-7B,MMLU-Pro,accuracy,0.424,0.424,0.0,PASS
+minimal_recovery_operation,Qwen2.5-7B,MMLU-Pro,operation,R3 Fresh deletion,R3 Fresh deletion,0.0,PASS
+minimal_recovery_operation,Qwen2.5-7B,MMLU-Pro,restoration_ratio,1.0,1.0,0.0,PASS
+minimal_recovery_operation,Qwen2.5-7B,TruthfulQA-MC,accuracy,0.7,0.7,0.0,PASS
+minimal_recovery_operation,Qwen2.5-7B,TruthfulQA-MC,operation,R3 Fresh deletion,R3 Fresh deletion,0.0,PASS
+minimal_recovery_operation,Qwen2.5-7B,TruthfulQA-MC,restoration_ratio,,,,PASS
+pressure_ramp,Mistral-7B,MMLU-Pro,clean_pw_mean,0.091,0.09074530212072877,0.00025469787927122345,PASS
+pressure_ramp,Mistral-7B,MMLU-Pro,hysteresis_gap,0.659,0.6592114301852703,0.00021143018527025603,PASS
+pressure_ramp,Mistral-7B,MMLU-Pro,lock_in,0.82,0.8199566160520607,4.338394793923506e-05,PASS
+pressure_ramp,Mistral-7B,MMLU-Pro,positive_hysteresis_rate,0.936,0.936,0.0,PASS
+pressure_ramp,Mistral-7B,MMLU-Pro,press_pw_mean,0.915,0.9146155576722206,0.0003844423277794551,PASS
+pressure_ramp,Mistral-7B,MMLU-Pro,reset_pw_mean,0.75,0.749956732305999,4.3267694000981294e-05,PASS
+pressure_ramp,Mistral-7B,TruthfulQA-MC,clean_pw_mean,0.105,0.10493169119788995,6.830880211004808e-05,PASS
+pressure_ramp,Mistral-7B,TruthfulQA-MC,hysteresis_gap,0.247,0.2470265087505791,2.6508750579107287e-05,PASS
+pressure_ramp,Mistral-7B,TruthfulQA-MC,lock_in,0.443,0.4430992736077482,9.927360774819594e-05,PASS
+pressure_ramp,Mistral-7B,TruthfulQA-MC,positive_hysteresis_rate,0.886,0.886,0.0,PASS
+pressure_ramp,Mistral-7B,TruthfulQA-MC,press_pw_mean,0.826,0.8262497706243609,0.00024977062436093433,PASS
+pressure_ramp,Mistral-7B,TruthfulQA-MC,reset_pw_mean,0.352,0.3519581999484691,4.180005153087141e-05,PASS
+pressure_ramp,Qwen2.5-1.5B,MMLU-Pro,clean_pw_mean,0.091,0.09124088678329585,0.00024088678329585445,PASS
+pressure_ramp,Qwen2.5-1.5B,MMLU-Pro,hysteresis_gap,0.634,0.6343029031006014,0.0003029031006014371,PASS
+pressure_ramp,Qwen2.5-1.5B,MMLU-Pro,lock_in,0.809,0.8086021505376344,0.00039784946236565144,PASS
+pressure_ramp,Qwen2.5-1.5B,MMLU-Pro,positive_hysteresis_rate,0.924,0.924,0.0,PASS
+pressure_ramp,Qwen2.5-1.5B,MMLU-Pro,press_pw_mean,0.925,0.92481261920966,0.00018738079034008592,PASS
+pressure_ramp,Qwen2.5-1.5B,MMLU-Pro,reset_pw_mean,0.726,0.7255437898838972,0.000456210116102751,PASS
+pressure_ramp,Qwen2.5-1.5B,TruthfulQA-MC,clean_pw_mean,0.166,0.16554468419833418,0.00045531580166582875,PASS
+pressure_ramp,Qwen2.5-1.5B,TruthfulQA-MC,hysteresis_gap,0.499,0.49949352756211274,0.0004935275621127388,PASS
+pressure_ramp,Qwen2.5-1.5B,TruthfulQA-MC,lock_in,0.746,0.7461024498886414,0.00010244988864138715,PASS
+pressure_ramp,Qwen2.5-1.5B,TruthfulQA-MC,positive_hysteresis_rate,0.91,0.91,0.0,PASS
+pressure_ramp,Qwen2.5-1.5B,TruthfulQA-MC,press_pw_mean,0.897,0.8970861433886306,8.614338863055515e-05,PASS
+pressure_ramp,Qwen2.5-1.5B,TruthfulQA-MC,reset_pw_mean,0.665,0.665038211760447,3.821176044693786e-05,PASS
+pressure_ramp,Qwen2.5-14B,MMLU-Pro,clean_pw_mean,0.084,0.08411410963399407,0.0001141096339940667,PASS
+pressure_ramp,Qwen2.5-14B,MMLU-Pro,hysteresis_gap,0.272,0.272105977506551,0.00010597750655100269,PASS
+pressure_ramp,Qwen2.5-14B,MMLU-Pro,lock_in,0.372,0.37214137214137216,0.0001413721413721647,PASS
+pressure_ramp,Qwen2.5-14B,MMLU-Pro,positive_hysteresis_rate,0.71,0.71,0.0,PASS
+pressure_ramp,Qwen2.5-14B,MMLU-Pro,press_pw_mean,0.957,0.9573442493606187,0.00034424936061872025,PASS
+pressure_ramp,Qwen2.5-14B,MMLU-Pro,reset_pw_mean,0.356,0.3562200871405451,0.00022008714054511103,PASS
+pressure_ramp,Qwen2.5-14B,TruthfulQA-MC,clean_pw_mean,0.076,0.0760056316692018,5.63166920179714e-06,PASS
+pressure_ramp,Qwen2.5-14B,TruthfulQA-MC,hysteresis_gap,0.037,0.036697673019392966,0.00030232698060703167,PASS
+pressure_ramp,Qwen2.5-14B,TruthfulQA-MC,lock_in,0.117,0.11727078891257996,0.0002707889125799501,PASS
+pressure_ramp,Qwen2.5-14B,TruthfulQA-MC,positive_hysteresis_rate,0.344,0.344,0.0,PASS
+pressure_ramp,Qwen2.5-14B,TruthfulQA-MC,press_pw_mean,0.933,0.9330718861961831,7.188619618303527e-05,PASS
+pressure_ramp,Qwen2.5-14B,TruthfulQA-MC,reset_pw_mean,0.113,0.11270330468859475,0.0002966953114052484,PASS
+pressure_ramp,Qwen2.5-7B,MMLU-Pro,clean_pw_mean,0.081,0.0806055196700934,0.00039448032990660464,PASS
+pressure_ramp,Qwen2.5-7B,MMLU-Pro,hysteresis_gap,0.262,0.26194310911520957,5.6890884790439245e-05,PASS
+pressure_ramp,Qwen2.5-7B,MMLU-Pro,lock_in,0.354,0.35390946502057613,9.05349794238508e-05,PASS
+pressure_ramp,Qwen2.5-7B,MMLU-Pro,positive_hysteresis_rate,0.518,0.518,0.0,PASS
+pressure_ramp,Qwen2.5-7B,MMLU-Pro,press_pw_mean,0.971,0.9711700622579035,0.0001700622579035027,PASS
+pressure_ramp,Qwen2.5-7B,MMLU-Pro,reset_pw_mean,0.343,0.34254862878530284,0.00045137121469718267,PASS
+pressure_ramp,Qwen2.5-7B,TruthfulQA-MC,clean_pw_mean,0.096,0.09597502619342342,2.497380657658088e-05,PASS
+pressure_ramp,Qwen2.5-7B,TruthfulQA-MC,hysteresis_gap,0.011,0.01096237901913981,3.762098086018857e-05,PASS
+pressure_ramp,Qwen2.5-7B,TruthfulQA-MC,lock_in,0.114,0.11373390557939914,0.0002660944206008681,PASS
+pressure_ramp,Qwen2.5-7B,TruthfulQA-MC,positive_hysteresis_rate,0.382,0.382,0.0,PASS
+pressure_ramp,Qwen2.5-7B,TruthfulQA-MC,press_pw_mean,0.926,0.9257920727049916,0.00020792729500840323,PASS
+pressure_ramp,Qwen2.5-7B,TruthfulQA-MC,reset_pw_mean,0.107,0.10693740521256322,6.25947874367816e-05,PASS
+recovery_hierarchy_summary,ALL,R0 Ordinary reset,clean_like_count,1,1,0.0,PASS
+recovery_hierarchy_summary,ALL,R0 Ordinary reset,genuine_count,0,0,0.0,PASS
+recovery_hierarchy_summary,ALL,R0 Ordinary reset,weak_mixed_worse_count,7,7,0.0,PASS
+recovery_hierarchy_summary,ALL,R1 User retraction,clean_like_count,1,1,0.0,PASS
+recovery_hierarchy_summary,ALL,R1 User retraction,genuine_count,1,1,0.0,PASS
+recovery_hierarchy_summary,ALL,R1 User retraction,weak_mixed_worse_count,6,6,0.0,PASS
+recovery_hierarchy_summary,ALL,R2 System reset,clean_like_count,1,1,0.0,PASS
+recovery_hierarchy_summary,ALL,R2 System reset,genuine_count,0,0,0.0,PASS
+recovery_hierarchy_summary,ALL,R2 System reset,weak_mixed_worse_count,7,7,0.0,PASS
+recovery_hierarchy_summary,ALL,R3 Context truncation,clean_like_count,8,8,0.0,PASS
+recovery_hierarchy_summary,ALL,R3 Context truncation,genuine_count,0,0,0.0,PASS
+recovery_hierarchy_summary,ALL,R3 Context truncation,weak_mixed_worse_count,0,0,0.0,PASS
+recovery_hierarchy_summary,ALL,R3 Fresh deletion,clean_like_count,8,8,0.0,PASS
+recovery_hierarchy_summary,ALL,R3 Fresh deletion,genuine_count,0,0,0.0,PASS
+recovery_hierarchy_summary,ALL,R3 Fresh deletion,weak_mixed_worse_count,0,0,0.0,PASS
+recovery_hierarchy_summary,ALL,R4 Neutral summary,clean_like_count,6,6,0.0,PASS
+recovery_hierarchy_summary,ALL,R4 Neutral summary,genuine_count,1,1,0.0,PASS
+recovery_hierarchy_summary,ALL,R4 Neutral summary,weak_mixed_worse_count,1,1,0.0,PASS
+recovery_hierarchy_summary,ALL,R5 Factual reconstruction,clean_like_count,7,7,0.0,PASS
+recovery_hierarchy_summary,ALL,R5 Factual reconstruction,genuine_count,1,1,0.0,PASS
+recovery_hierarchy_summary,ALL,R5 Factual reconstruction,weak_mixed_worse_count,0,0,0.0,PASS
+recovery_hierarchy_summary,ALL,R6 Self-verification,clean_like_count,1,1,0.0,PASS
+recovery_hierarchy_summary,ALL,R6 Self-verification,genuine_count,0,0,0.0,PASS
+recovery_hierarchy_summary,ALL,R6 Self-verification,weak_mixed_worse_count,7,7,0.0,PASS
+relabel_effect,Mistral-7B,MMLU-Pro,baseline_pw,0.85,0.8504364411233457,0.00043644112334573215,PASS
+relabel_effect,Mistral-7B,MMLU-Pro,shuffle_pw,0.809,0.8086554212106711,0.00034457878932891983,PASS
+relabel_effect,Mistral-7B,MMLU-Pro,wrong_reduction,0.042,0.04178101991267459,0.00021898008732541135,PASS
+relabel_effect,Mistral-7B,TruthfulQA-MC,baseline_pw,0.577,0.5767518640508582,0.00024813594914174786,PASS
+relabel_effect,Mistral-7B,TruthfulQA-MC,shuffle_pw,0.686,0.6861677625740001,0.00016776257400008543,PASS
+relabel_effect,Mistral-7B,TruthfulQA-MC,wrong_reduction,-0.109,-0.10941589852314194,0.0004158985231419443,PASS
+relabel_effect,Qwen2.5-1.5B,MMLU-Pro,baseline_pw,0.84,0.8395362851366934,0.0004637148633065413,PASS
+relabel_effect,Qwen2.5-1.5B,MMLU-Pro,shuffle_pw,0.514,0.514223001366406,0.00022300136640596158,PASS
+relabel_effect,Qwen2.5-1.5B,MMLU-Pro,wrong_reduction,0.325,0.3253132837702876,0.000313283770287609,PASS
+relabel_effect,Qwen2.5-1.5B,TruthfulQA-MC,baseline_pw,0.773,0.7728485736996459,0.0001514263003541405,PASS
+relabel_effect,Qwen2.5-1.5B,TruthfulQA-MC,shuffle_pw,0.536,0.5361565873770485,0.00015658737704848935,PASS
+relabel_effect,Qwen2.5-1.5B,TruthfulQA-MC,wrong_reduction,0.237,0.23669198632259744,0.0003080136774025466,PASS
+relabel_effect,Qwen2.5-14B,MMLU-Pro,baseline_pw,0.528,0.5281754537566689,0.00017545375666883078,PASS
+relabel_effect,Qwen2.5-14B,MMLU-Pro,shuffle_pw,0.62,0.6200254854247241,2.5485424724136507e-05,PASS
+relabel_effect,Qwen2.5-14B,MMLU-Pro,wrong_reduction,-0.092,-0.09185003166805532,0.0001499683319446804,PASS
+relabel_effect,Qwen2.5-7B,MMLU-Pro,baseline_pw,0.514,0.5144294575846117,0.00042945758461165884,PASS
+relabel_effect,Qwen2.5-7B,MMLU-Pro,shuffle_pw,0.491,0.4905134460562611,0.0004865539437388655,PASS
+relabel_effect,Qwen2.5-7B,MMLU-Pro,wrong_reduction,0.024,0.023916011528350593,8.398847164940715e-05,PASS
+semantic_letter,Mistral-7B,MMLU-Pro,chance_old_letter_rate,0.112,0.1119119047619047,8.809523809530373e-05,PASS
+semantic_letter,Mistral-7B,MMLU-Pro,new_wrong_following_rate,0.82,0.82,0.0,PASS
+semantic_letter,Mistral-7B,MMLU-Pro,old_letter_following_rate,0.068,0.068,0.0,PASS
+semantic_letter,Mistral-7B,MMLU-Pro,semantic_following_rate,0.82,0.82,0.0,PASS
+semantic_letter,Mistral-7B,TruthfulQA-MC,chance_old_letter_rate,0.229,0.2287657509157509,0.00023424908424909963,PASS
+semantic_letter,Mistral-7B,TruthfulQA-MC,new_wrong_following_rate,0.702,0.702,0.0,PASS
+semantic_letter,Mistral-7B,TruthfulQA-MC,old_letter_following_rate,0.114,0.114,0.0,PASS
+semantic_letter,Mistral-7B,TruthfulQA-MC,semantic_following_rate,0.702,0.702,0.0,PASS
+semantic_letter,Qwen2.5-1.5B,MMLU-Pro,chance_old_letter_rate,0.112,0.1119119047619047,8.809523809530373e-05,PASS
+semantic_letter,Qwen2.5-1.5B,MMLU-Pro,new_wrong_following_rate,0.562,0.562,0.0,PASS
+semantic_letter,Qwen2.5-1.5B,MMLU-Pro,old_letter_following_rate,0.118,0.118,0.0,PASS
+semantic_letter,Qwen2.5-1.5B,MMLU-Pro,semantic_following_rate,0.562,0.562,0.0,PASS
+semantic_letter,Qwen2.5-1.5B,TruthfulQA-MC,chance_old_letter_rate,0.229,0.2287657509157509,0.00023424908424909963,PASS
+semantic_letter,Qwen2.5-1.5B,TruthfulQA-MC,new_wrong_following_rate,0.544,0.544,0.0,PASS
+semantic_letter,Qwen2.5-1.5B,TruthfulQA-MC,old_letter_following_rate,0.216,0.216,0.0,PASS
+semantic_letter,Qwen2.5-1.5B,TruthfulQA-MC,semantic_following_rate,0.544,0.544,0.0,PASS
+semantic_letter,Qwen2.5-14B,MMLU-Pro,chance_old_letter_rate,0.112,0.1119119047619047,8.809523809530373e-05,PASS
+semantic_letter,Qwen2.5-14B,MMLU-Pro,new_wrong_following_rate,0.62,0.62,0.0,PASS
+semantic_letter,Qwen2.5-14B,MMLU-Pro,old_letter_following_rate,0.052,0.052,0.0,PASS
+semantic_letter,Qwen2.5-14B,MMLU-Pro,semantic_following_rate,0.62,0.62,0.0,PASS
+semantic_letter,Qwen2.5-7B,MMLU-Pro,chance_old_letter_rate,0.112,0.1119119047619047,8.809523809530373e-05,PASS
+semantic_letter,Qwen2.5-7B,MMLU-Pro,new_wrong_following_rate,0.496,0.496,0.0,PASS
+semantic_letter,Qwen2.5-7B,MMLU-Pro,old_letter_following_rate,0.09,0.09,0.0,PASS
+semantic_letter,Qwen2.5-7B,MMLU-Pro,semantic_following_rate,0.496,0.496,0.0,PASS
+threshold_sensitivity,ALL,loose,r0,2.0,2.0,0.0,PASS
+threshold_sensitivity,ALL,loose,r1,2.0,2.0,0.0,PASS
+threshold_sensitivity,ALL,loose,r2,2.0,2.0,0.0,PASS
+threshold_sensitivity,ALL,loose,r3_fresh,8.0,8.0,0.0,PASS
+threshold_sensitivity,ALL,loose,r3_truncation,8.0,8.0,0.0,PASS
+threshold_sensitivity,ALL,loose,r4,7.0,7.0,0.0,PASS
+threshold_sensitivity,ALL,loose,r5,7.0,7.0,0.0,PASS
+threshold_sensitivity,ALL,loose,r6,2.0,2.0,0.0,PASS
+threshold_sensitivity,ALL,main,r0,1.0,1.0,0.0,PASS
+threshold_sensitivity,ALL,main,r1,1.0,1.0,0.0,PASS
+threshold_sensitivity,ALL,main,r2,1.0,1.0,0.0,PASS
+threshold_sensitivity,ALL,main,r3_fresh,8.0,8.0,0.0,PASS
+threshold_sensitivity,ALL,main,r3_truncation,8.0,8.0,0.0,PASS
+threshold_sensitivity,ALL,main,r4,6.0,6.0,0.0,PASS
+threshold_sensitivity,ALL,main,r5,7.0,7.0,0.0,PASS
+threshold_sensitivity,ALL,main,r6,1.0,1.0,0.0,PASS
+threshold_sensitivity,ALL,strict,r0,0.0,0.0,0.0,PASS
+threshold_sensitivity,ALL,strict,r1,1.0,1.0,0.0,PASS
+threshold_sensitivity,ALL,strict,r2,0.0,0.0,0.0,PASS
+threshold_sensitivity,ALL,strict,r3_fresh,8.0,8.0,0.0,PASS
+threshold_sensitivity,ALL,strict,r3_truncation,7.0,7.0,0.0,PASS
+threshold_sensitivity,ALL,strict,r4,5.0,5.0,0.0,PASS
+threshold_sensitivity,ALL,strict,r5,5.0,5.0,0.0,PASS
+threshold_sensitivity,ALL,strict,r6,0.0,0.0,0.0,PASS

@@ -1,0 +1,1 @@
+Option relabel-shuffle diagnostic: rerender the same multiple-choice item under a deterministic option-label permutation while preserving the underlying answer texts and the advocated wrong-answer selection. See released relabel aggregates in `results/raw_aggregates/recovery_hierarchy/` and original scripts for the exact implementation.

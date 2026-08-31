@@ -1,0 +1,9 @@
+model_key,model_short_name,dataset,minimal_recovery_operation,minimal_recovery_level,evaluated_n,restoration_ratio,restoration_ratio_informative,intervention_hysteresis_gap,accuracy,repair_classification
+mistral7b_v03,Mistral-7B-v0.3,mmlu_pro,fresh_context_deletion,R3,500,1.0,True,0.0,0.326,restored_clean_context_like
+mistral7b_v03,Mistral-7B-v0.3,truthfulqa_mc,fresh_context_deletion,R3,500,1.0,True,0.0,0.65,restored_clean_context_like
+qwen25_14b,Qwen2.5-14B,mmlu_pro,fresh_context_deletion,R3,500,1.0,True,0.0,0.456,restored_clean_context_like
+qwen25_14b,Qwen2.5-14B,truthfulqa_mc,ordinary_strong_reset,R0,500,0.0,False,0.03669767301939296,0.738,restored_clean_context_like
+qwen25_15b,Qwen2.5-1.5B,mmlu_pro,fresh_context_deletion,R3,500,1.0,True,0.0,0.274,restored_clean_context_like
+qwen25_15b,Qwen2.5-1.5B,truthfulqa_mc,fresh_context_deletion,R3,500,1.0,True,0.0,0.492,restored_clean_context_like
+qwen25_7b,Qwen2.5-7B,mmlu_pro,fresh_context_deletion,R3,500,1.0,True,0.0,0.424,restored_clean_context_like
+qwen25_7b,Qwen2.5-7B,truthfulqa_mc,fresh_context_deletion,R3,500,1.0,False,0.0,0.7,restored_clean_context_like

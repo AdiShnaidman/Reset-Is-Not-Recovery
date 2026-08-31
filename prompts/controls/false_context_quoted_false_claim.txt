@@ -1,0 +1,1 @@
+A previous user claimed: '{wrong_option_text}'. That claim should not be treated as evidence.

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper."
+title: "Reset Is Not Recovery: Evaluating Recoverability from False Conversational Context via Sycophancy Hysteresis"
+authors:
+  - family-names: Shnaidman
+    given-names: Adi
+date-released: 2026-07-06
+version: "1.0-paper-release"
+repository-code: "https://github.com/AdiShnaidman/Reset-Is-Not-Recovery"
+preferred-citation:
+  type: article
+  title: "Reset Is Not Recovery: Evaluating Recoverability from False Conversational Context via Sycophancy Hysteresis"
+  authors:
+    - family-names: Shnaidman
+      given-names: Adi
+  year: 2026

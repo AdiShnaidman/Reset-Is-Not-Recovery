@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\hline
+Prior context & $p_{clean}(w_i)$ & $p_{reset}(w_i)$ & Gap & WF \\
+\hline
+Clean reset & 0.101 & 0.099 & -0.002 & 9.9 \\
+Neutral mention & 0.101 & 0.265 & 0.165 & 27.7 \\
+Explicit false mention & 0.101 & 0.173 & 0.072 & 17.9 \\
+Quoted false claim & 0.101 & 0.147 & 0.046 & 15.1 \\
+User pressure & 0.101 & 0.404 & 0.303 & 41.2 \\
+\hline
+\end{tabular}
+\caption{Pressure-vs-false-context control across all fourteen model-dataset pairs (n = 7000 per condition). All conditions use the same advocated wrong answers and the same ordinary-reset final prompt; only the prior context differs. Gap is $p_{reset}(w_i) - p_{clean}(w_i)$. WF is the ordinary-reset wrong-following rate, reported as a percentage.}
+\label{tab:pressure-vs-false-context}
+\end{table}

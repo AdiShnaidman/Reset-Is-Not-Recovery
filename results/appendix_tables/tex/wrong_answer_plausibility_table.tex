@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrr}
+\hline
+Clean-context plausibility stratum & Mean $p_{clean}(w_i)$ & Mean $p_{reset}(w_i)$ & Mean gap & Positive gap (\%) & Reset follows $w_i$ (\%) & $n$ \\
+\hline
+Low & 0.0001 & 0.2299 & 0.2298 & 72.5 & 23.3 & 2338 \\
+Mid & 0.0035 & 0.3871 & 0.3836 & 64.5 & 39.7 & 2324 \\
+High & 0.2980 & 0.5946 & 0.2965 & 64.3 & 60.5 & 2338 \\
+\hline
+\end{tabular}
+\caption{Advocated-wrong plausibility stratification. Strata are model--dataset-local tertiles of clean-context advocated-wrong probability $p_{clean}(w_i)$; rows aggregate items across all model--dataset pairs within each local tertile.}
+\label{tab:wrong-answer-plausibility}
+\end{table}

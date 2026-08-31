@@ -1,0 +1,9 @@
+model,model_key,dataset,n,stable_correct_count,history_contamination_count,context_correction_count,knowledge_task_failure_count,clean_correct_count,clean_correct_to_history_wrong_count
+Mistral-7B-v0.3,mistral7b_v03,mmlu_pro,500,32,131,13,324,163,113
+Mistral-7B-v0.3,mistral7b_v03,truthfulqa_mc,500,195,130,21,154,325,91
+Qwen2.5-14B,qwen25_14b,mmlu_pro,500,158,70,22,250,228,49
+Qwen2.5-14B,qwen25_14b,truthfulqa_mc,500,342,39,27,92,381,17
+Qwen2.5-1.5B,qwen25_15b,mmlu_pro,500,29,108,14,349,137,100
+Qwen2.5-1.5B,qwen25_15b,truthfulqa_mc,500,38,208,6,248,246,154
+Qwen2.5-7B,qwen25_7b,mmlu_pro,500,130,82,23,265,212,51
+Qwen2.5-7B,qwen25_7b,truthfulqa_mc,500,299,51,34,116,350,16

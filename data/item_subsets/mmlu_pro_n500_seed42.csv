@@ -1,0 +1,501 @@
+dataset,question_id,original_index,source_row_index,source_question_id,source_split,correct_label,correct_text,n_options
+mmlu_pro,mmlu_pro_10024,0,,10024,test,I,5.40MeV,10
+mmlu_pro,mmlu_pro_5088,1,,5088,test,E,19%,10
+mmlu_pro,mmlu_pro_7070,2,,7070,test,D,The amount by which total output increases due to the addition of one unit of a given factor while the amount used of other factors of production remains unchanged,10
+mmlu_pro,mmlu_pro_556,3,,556,test,G,"(i) 585, (ii) Yes",10
+mmlu_pro,mmlu_pro_1496,4,,1496,test,C,"inadmissible, because the attorney-client privilege prevents such a breach of confidential communications.",10
+mmlu_pro,mmlu_pro_3320,5,,3320,test,D,"Skinner box is used in operant conditioning to reward or punish a behavior, thereby increasing or decreasing the probability of its occurrence.",10
+mmlu_pro,mmlu_pro_473,6,,473,test,D,3 to 2,10
+mmlu_pro,mmlu_pro_6570,7,,6570,test,A,"leucine, methionine and threonine",9
+mmlu_pro,mmlu_pro_7562,8,,7562,test,E,lowered its official reserve position.,10
+mmlu_pro,mmlu_pro_2854,9,,2854,test,A,"Combustion releases energy rapidly as heat which would destroy a cell. In contrast, aerobic respiration releases energy sequentially in small packets, transforming and storing it in the form of ATP, preventing damage to the cell.",10
+mmlu_pro,mmlu_pro_8486,10,,8486,test,H,-1,10
+mmlu_pro,mmlu_pro_11489,11,,11489,test,D,2.57 × 10^-6 voltsrms and 3.15 × 10^-6 voltsrms,10
+mmlu_pro,mmlu_pro_2503,12,,2503,test,J,content validity,10
+mmlu_pro,mmlu_pro_688,13,,688,test,C,Escapist realm.,10
+mmlu_pro,mmlu_pro_5136,14,,5136,test,D,Research and evaluation,10
+mmlu_pro,mmlu_pro_8930,15,,8930,test,J,0.592,10
+mmlu_pro,mmlu_pro_3079,16,,3079,test,H,"Bacteria and yeast grow quickly, inexpensively, in a small space and have a high probability of mutation. Prokaryotes are haploid, making single inactivation more likely. Yeast are eukaryotic, closely related to multicellular animals and plants, and can be grown in either the haploid or diploid state.",10
+mmlu_pro,mmlu_pro_12113,17,,12113,test,G,0.126 min,10
+mmlu_pro,mmlu_pro_10343,18,,10343,test,A,$2 \sqrt{2} \sin \frac{\pi}{2 \sqrt{2}}$,10
+mmlu_pro,mmlu_pro_8802,19,,8802,test,C,6,10
+mmlu_pro,mmlu_pro_783,20,,783,test,H,$29.60,10
+mmlu_pro,mmlu_pro_5874,21,,5874,test,J,identifying any problems with the question wording and routing,10
+mmlu_pro,mmlu_pro_7511,22,,7511,test,B,Unit root process,10
+mmlu_pro,mmlu_pro_3917,23,,3917,test,B,"methane < 2,3-dimethylbutane < neopentane < n-hexane < n-undecane",10
+mmlu_pro,mmlu_pro_11562,24,,11562,test,F,0.119 wavelength^2,10
+mmlu_pro,mmlu_pro_7847,25,,7847,test,C,36,10
+mmlu_pro,mmlu_pro_3739,26,,3739,test,D,7$\mathrm{mol}^{-1}$,10
+mmlu_pro,mmlu_pro_9795,27,,9795,test,C,43 ft,10
+mmlu_pro,mmlu_pro_12104,28,,12104,test,E,1484.4 lb./in.,10
+mmlu_pro,mmlu_pro_2457,29,,2457,test,A,Statistical nonsignificance under low power,4
+mmlu_pro,mmlu_pro_4906,30,,4906,test,E,maize,6
+mmlu_pro,mmlu_pro_11886,31,,11886,test,E,- 0.745∠116.5651°,10
+mmlu_pro,mmlu_pro_5396,32,,5396,test,E,Miriam,10
+mmlu_pro,mmlu_pro_1290,33,,1290,test,A,Ajax is a merchant selling Sipep.,4
+mmlu_pro,mmlu_pro_10452,34,,10452,test,H,The polynomial degree,10
+mmlu_pro,mmlu_pro_11847,35,,11847,test,J,0.06 watt/meter^2,10
+mmlu_pro,mmlu_pro_8147,36,,8147,test,F,30,10
+mmlu_pro,mmlu_pro_1540,37,,1540,test,I,"admitted against both the son and the father, because they were engaged in a conspiracy.",10
+mmlu_pro,mmlu_pro_11733,38,,11733,test,B,"Sampling rate of 3 samples/sec, ramp slope of 100 V/sec, counting rate of 1,600 counts/second",10
+mmlu_pro,mmlu_pro_8676,39,,8676,test,A,4t,9
+mmlu_pro,mmlu_pro_4090,40,,4090,test,C,16 $\mathrm{mg}$,10
+mmlu_pro,mmlu_pro_7497,41,,7497,test,F,I III and IV only,9
+mmlu_pro,mmlu_pro_7490,42,,7490,test,A,low levels of income relative to other nations.,6
+mmlu_pro,mmlu_pro_3763,43,,3763,test,C,78.73°C,10
+mmlu_pro,mmlu_pro_6035,44,,6035,test,B,adjustment disorder with anxious mood,10
+mmlu_pro,mmlu_pro_281,45,,281,test,J,"Equilibrium price is 20 dollars, Number of barrels sold is 40 per day",10
+mmlu_pro,mmlu_pro_10852,46,,10852,test,B,are independent: You can accept either part without accepting the other.,10
+mmlu_pro,mmlu_pro_7807,47,,7807,test,H,5,10
+mmlu_pro,mmlu_pro_9030,48,,9030,test,D,"[8, -14]",10
+mmlu_pro,mmlu_pro_10306,49,,10306,test,J,0.671 gm,10
+mmlu_pro,mmlu_pro_3878,50,,3878,test,I,0.2423 cal mol^-1K^-1,10
+mmlu_pro,mmlu_pro_791,51,,791,test,J,$103.00,10
+mmlu_pro,mmlu_pro_8369,52,,8369,test,E,(I) and (IV ),10
+mmlu_pro,mmlu_pro_7793,53,,7793,test,C,"True, False",4
+mmlu_pro,mmlu_pro_1610,54,,1610,test,B,The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.,9
+mmlu_pro,mmlu_pro_12122,55,,12122,test,A,1.5 KV.,10
+mmlu_pro,mmlu_pro_3944,56,,3944,test,F,16.4 cc,10
+mmlu_pro,mmlu_pro_2782,57,,2782,test,D,confirmation bias may influence clinicians' views and treatments of mental patients.,10
+mmlu_pro,mmlu_pro_627,58,,627,test,H,Convenience and quota samples.,9
+mmlu_pro,mmlu_pro_4901,59,,4901,test,C,They had no interest in the products that Great Britain could provide.,9
+mmlu_pro,mmlu_pro_11879,60,,11879,test,G,0.95 W,10
+mmlu_pro,mmlu_pro_10510,61,,10510,test,I,E7_{16},10
+mmlu_pro,mmlu_pro_11343,62,,11343,test,I,k^2 \leq [{\pi} / {f_1(2f_m - \pif_1)}],10
+mmlu_pro,mmlu_pro_11211,63,,11211,test,F,contemplating God.,10
+mmlu_pro,mmlu_pro_7737,64,,7737,test,F,f (x) = 0 has three real solutions.,10
+mmlu_pro,mmlu_pro_10582,65,,10582,test,A,"Packed arrays store values in memory in the most compact way possible, taking up less space but increasing processing time.",10
+mmlu_pro,mmlu_pro_10478,66,,10478,test,G,"FindName ([""Andrea"", ""Ben"", ""Chris""], ""Ben"")",10
+mmlu_pro,mmlu_pro_7648,67,,7648,test,I,This is short run diminishing marginal productivity.,10
+mmlu_pro,mmlu_pro_6643,68,,6643,test,I,Induces apoptosis via caspases,10
+mmlu_pro,mmlu_pro_7407,69,,7407,test,G,Pure capitalism stimulates and encourages technological advance by providing opportunities and incentives for technological innovation.,10
+mmlu_pro,mmlu_pro_8266,70,,8266,test,H,y - 36 = 13,10
+mmlu_pro,mmlu_pro_2106,71,,2106,test,G,delta waves.,10
+mmlu_pro,mmlu_pro_6332,72,,6332,test,B,0.93,10
+mmlu_pro,mmlu_pro_854,73,,854,test,A,40 %,10
+mmlu_pro,mmlu_pro_2046,74,,2046,test,D,- .44,10
+mmlu_pro,mmlu_pro_3206,75,,3206,test,B,The same chromosome in every cell of a normal female is inactivated.,4
+mmlu_pro,mmlu_pro_6931,76,,6931,test,C,The total market value of all final goods and services produced in the economy in one year,10
+mmlu_pro,mmlu_pro_4709,77,,4709,test,A,mutilation and violence.,9
+mmlu_pro,mmlu_pro_7771,78,,7771,test,I,157.875 $\mathrm{mg}$,10
+mmlu_pro,mmlu_pro_4784,79,,4784,test,C,"The separation between native Siberians and the earliest Native Americans occurred sometime between 20,000 and 23,000 years ago.",10
+mmlu_pro,mmlu_pro_11384,80,,11384,test,D,- [(4K) / {(K + 1)^2 - (K - 1)^2 (a/b)^2}],10
+mmlu_pro,mmlu_pro_3454,81,,3454,test,G,39 percent,10
+mmlu_pro,mmlu_pro_7260,82,,7260,test,G,"a) Change in supply, b) Change in supply, c) Change in quantity supplied",10
+mmlu_pro,mmlu_pro_7246,83,,7246,test,B,aggregate the firm supply curves horizontally,10
+mmlu_pro,mmlu_pro_2651,84,,2651,test,D,the employee’s beliefs about the value of rewards provided for successful performance.,10
+mmlu_pro,mmlu_pro_9735,85,,9735,test,H,40%,10
+mmlu_pro,mmlu_pro_9350,86,,9350,test,I,equivalent to a concave mirror of radius f,10
+mmlu_pro,mmlu_pro_5973,87,,5973,test,G,20,10
+mmlu_pro,mmlu_pro_10832,88,,10832,test,I,Father of Goodness,10
+mmlu_pro,mmlu_pro_2340,89,,2340,test,J,reading chills usually do not reach normal levels as these children reach adulthood,10
+mmlu_pro,mmlu_pro_4663,90,,4663,test,C,64.5 g of protein per day,10
+mmlu_pro,mmlu_pro_6061,91,,6061,test,I,High dose ß-carotene supplements,10
+mmlu_pro,mmlu_pro_1612,92,,1612,test,E,gratuitous assignment of future rights.,10
+mmlu_pro,mmlu_pro_4732,93,,4732,test,A,mobiliary art.,4
+mmlu_pro,mmlu_pro_4063,94,,4063,test,F,40.59 kJ,10
+mmlu_pro,mmlu_pro_4876,95,,4876,test,B,an earthquake and a volcanic eruption,10
+mmlu_pro,mmlu_pro_12183,96,,12183,test,G,h(y) = [1 / {\pi\surdy(1 + y)}]y > 0 and = 0otherwise,9
+mmlu_pro,mmlu_pro_8895,97,,8895,test,H,345,10
+mmlu_pro,mmlu_pro_6209,98,,6209,test,I,"Dyspnoea, tachycardia, and distended neck veins.",10
+mmlu_pro,mmlu_pro_10520,99,,10520,test,D,A heap area,6
+mmlu_pro,mmlu_pro_6508,100,,6508,test,I,nonmaleficence overrides autonomy,10
+mmlu_pro,mmlu_pro_7964,101,,7964,test,B,0.4295,10
+mmlu_pro,mmlu_pro_12181,102,,12181,test,G,9.1792 [(mg of O_2) / (liter of solution)],10
+mmlu_pro,mmlu_pro_11899,103,,11899,test,B,"0.2563psia, 0.01089",10
+mmlu_pro,mmlu_pro_8955,104,,8955,test,D,0,10
+mmlu_pro,mmlu_pro_4742,105,,4742,test,B,Americans have more freedoms than people in other countries.,10
+mmlu_pro,mmlu_pro_1781,106,,1781,test,I,"A merchant writes buyer offering to sell the widget for $35,000.",9
+mmlu_pro,mmlu_pro_2005,107,,2005,test,D,equally effective,10
+mmlu_pro,mmlu_pro_8024,108,,8024,test,C,72,10
+mmlu_pro,mmlu_pro_2470,109,,2470,test,C,"The six major categories of abnormal behavior in DSM-II are mental retardation, organic brain syndromes, psychoses not attributed to physical conditions, neuroses, personality disorders and other nonpsychotic mental disorders, and psychophysiological disorders.",10
+mmlu_pro,mmlu_pro_3364,110,,3364,test,D,"The reaction of the sensitive plant, Mimosapudica, to touch demonstrates that transmission of impulses does indeed occur in plants.",10
+mmlu_pro,mmlu_pro_8638,111,,8638,test,C,2.8108,10
+mmlu_pro,mmlu_pro_3672,112,,3672,test,H,1.5eV,10
+mmlu_pro,mmlu_pro_176,113,,176,test,B,May 15,10
+mmlu_pro,mmlu_pro_10689,114,,10689,test,G,one in which each main memory word can be stored at any of 3 cache locations,7
+mmlu_pro,mmlu_pro_7804,115,,7804,test,I,Matched pairs comparison of population means,10
+mmlu_pro,mmlu_pro_5434,116,,5434,test,B,"Whereas illegal markets were territorially bounded and isolated in the past, the contemporary form illicit markets tend to be interrelated and mutually supporting and more embedded in the legal economy.",4
+mmlu_pro,mmlu_pro_6539,117,,6539,test,I,superficial to masseter and enters the mouth opposite the upper second molar.,10
+mmlu_pro,mmlu_pro_3975,118,,3975,test,C,0.41(J / °K),4
+mmlu_pro,mmlu_pro_4993,119,,4993,test,F,The formation of the non-aligned movement,10
+mmlu_pro,mmlu_pro_2093,120,,2093,test,F,moderate levels of arousal.,10
+mmlu_pro,mmlu_pro_8719,121,,8719,test,I,1,10
+mmlu_pro,mmlu_pro_7519,122,,7519,test,C,Transfer earnings are zero and the price of the land is entirely made up of economic rent.,10
+mmlu_pro,mmlu_pro_6994,123,,6994,test,F,absence of the trade components,10
+mmlu_pro,mmlu_pro_3417,124,,3417,test,H,"Scent, celestial clues, earth's magnetic field",10
+mmlu_pro,mmlu_pro_11567,125,,11567,test,E,"Overall heat transfer coefficient: 978.97 Btu/hr-ft^2-°F, Total rate of heat transfer: 123,021 Btu/hr, Total rate of condensation: 94.3 lb/hr",10
+mmlu_pro,mmlu_pro_1239,126,,1239,test,E,"the investor, because the deed absolute did not extinguish his right of redemption.",9
+mmlu_pro,mmlu_pro_4777,127,,4777,test,D,That China was surpassed by Europe in global power because it turned a blind eye to the obvious benefits of technological change,4
+mmlu_pro,mmlu_pro_6605,128,,6605,test,C,The inferior articular demifacet of T5 and the superior articular demifacet of T6.,10
+mmlu_pro,mmlu_pro_4949,129,,4949,test,F,using cause-and-effect to systematize the understanding of human behavior,10
+mmlu_pro,mmlu_pro_6850,130,,6850,test,A,Postponability and monopoly power,4
+mmlu_pro,mmlu_pro_10447,131,,10447,test,H,0.5,9
+mmlu_pro,mmlu_pro_4468,132,,4468,test,A,1.13,10
+mmlu_pro,mmlu_pro_6639,133,,6639,test,B,Prospective cohort,10
+mmlu_pro,mmlu_pro_1817,134,,1817,test,F,"denied, because the shopper's statement to her housekeeper would be admissible as a declaration of present bodily condition.",10
+mmlu_pro,mmlu_pro_146,135,,146,test,H,$46 per share,10
+mmlu_pro,mmlu_pro_1602,136,,1602,test,E,The taking for economic development purposes is proper because developing the city's economy constitutes a public use.,10
+mmlu_pro,mmlu_pro_7241,137,,7241,test,I,individual units within the overall economy.,10
+mmlu_pro,mmlu_pro_1562,138,,1562,test,A,"The editor and newspaper, because there is no constitutional right of advertising under the First and Fourteenth Amendments.",10
+mmlu_pro,mmlu_pro_4804,139,,4804,test,G,religious toleration,10
+mmlu_pro,mmlu_pro_4728,140,,4728,test,G,The rise of a literate class of scribes in cities who could record poems,10
+mmlu_pro,mmlu_pro_11815,141,,11815,test,I,4.99 × 10^-6lbmwater/lbmdry air,10
+mmlu_pro,mmlu_pro_11269,142,,11269,test,C,harm their ability to learn.,4
+mmlu_pro,mmlu_pro_9571,143,,9571,test,G,22.4 degrees,10
+mmlu_pro,mmlu_pro_8787,144,,8787,test,F,Mr. Kramer’s 8 grandchildren shared 20 crackers equally. How many crackers did each grandchild get?,8
+mmlu_pro,mmlu_pro_6494,145,,6494,test,H,Increased capillary permeability due to inflammation,10
+mmlu_pro,mmlu_pro_9779,146,,9779,test,G,24 ohms,10
+mmlu_pro,mmlu_pro_11076,147,,11076,test,E,~H,10
+mmlu_pro,mmlu_pro_1947,148,,1947,test,F,"No, because it was unforeseeable that the doctor's injury would result from the type of harm threatened.",10
+mmlu_pro,mmlu_pro_5480,149,,5480,test,H,$0 $75000,10
+mmlu_pro,mmlu_pro_3616,150,,3616,test,H,(1000) / (27),10
+mmlu_pro,mmlu_pro_4454,151,,4454,test,A,"Toluene is more easily nitrated, and therefore more easily polynitrated than benzene.",10
+mmlu_pro,mmlu_pro_3298,152,,3298,test,C,"0.218, 0.015",10
+mmlu_pro,mmlu_pro_3017,153,,3017,test,B,70% of the ventricular filling occurs during diastole due to passive flow as the atrial pressure is greater than the ventricular pressure.,10
+mmlu_pro,mmlu_pro_6256,154,,6256,test,D,Treat the symptoms,4
+mmlu_pro,mmlu_pro_10454,155,,10454,test,A,"False, False",10
+mmlu_pro,mmlu_pro_1300,156,,1300,test,I,"No, the mortgage lien could not destroy the joint tenancy, and when the partner dies, the property passes by operation of law to the surviving joint tenant.",10
+mmlu_pro,mmlu_pro_10992,157,,10992,test,J,they have neglected to take whatever steps would lead to their self-sustenance.,10
+mmlu_pro,mmlu_pro_3307,158,,3307,test,B,99 percent,10
+mmlu_pro,mmlu_pro_265,159,,265,test,G,Encoding.,10
+mmlu_pro,mmlu_pro_6641,160,,6641,test,A,Working in a category IV laboratory,4
+mmlu_pro,mmlu_pro_3249,161,,3249,test,D,"Growth in bacteria refers to an increase in the entire population of cells, while in plants and animals, it refers to the increase in size of the individual organism.",10
+mmlu_pro,mmlu_pro_6588,162,,6588,test,F,Three segmented negative stranded RNA viruses with anti-sense expression,10
+mmlu_pro,mmlu_pro_4347,163,,4347,test,I,3.5R,10
+mmlu_pro,mmlu_pro_2731,164,,2731,test,I,"Anxiety reaction, Phobic reactions, Depressive reactions, Dissociative reactions, Obsessive and compulsive reactions, Conversion reactions, Psychoneurotic reaction",10
+mmlu_pro,mmlu_pro_7730,165,,7730,test,A,4,10
+mmlu_pro,mmlu_pro_3667,166,,3667,test,B,250 cm^3,10
+mmlu_pro,mmlu_pro_4280,167,,4280,test,F,71.30 %,10
+mmlu_pro,mmlu_pro_5492,168,,5492,test,D,Dormant,4
+mmlu_pro,mmlu_pro_3109,169,,3109,test,D,Incomplete dominance describes the interaction of two alleles on one gene; epistasis describes the interaction of two genes and their respective alleles.,10
+mmlu_pro,mmlu_pro_7853,170,,7853,test,G,9,10
+mmlu_pro,mmlu_pro_1135,171,,1135,test,B,He was not a seller of the product upon whom strict liability may be imposed.,4
+mmlu_pro,mmlu_pro_9648,172,,9648,test,E,2$\frac{v_0}{g \sin \alpha}$,10
+mmlu_pro,mmlu_pro_7279,173,,7279,test,E,Changes in the long-run cost per unit of output due to variations in the prices of inputs,10
+mmlu_pro,mmlu_pro_3228,174,,3228,test,B,0.001,10
+mmlu_pro,mmlu_pro_10400,175,,10400,test,F,(a),8
+mmlu_pro,mmlu_pro_10909,176,,10909,test,J,"Drug prohibition would be done for the benefit of others, not the benefit of those who wish to produce/sell drugs, so it is not paternalistic in an objectionable sense.",10
+mmlu_pro,mmlu_pro_2734,177,,2734,test,B,Schizophrenia and manic-depressive psychosis,10
+mmlu_pro,mmlu_pro_2198,178,,2198,test,E,One y-intercept and three regression coefficients,10
+mmlu_pro,mmlu_pro_1969,179,,1969,test,C,"admissible as a dying declaration if the judge, by preponderance of the evidence, determines that the victim believed that her death was imminent.",9
+mmlu_pro,mmlu_pro_3605,180,,3605,test,D,"0.9994553, 2.4 ×10^-13",10
+mmlu_pro,mmlu_pro_2412,181,,2412,test,C,"The three basic goals of psychology are: to measure and describe behavior, to predict and control behavior, and to understand and explain behavior.",10
+mmlu_pro,mmlu_pro_4907,182,,4907,test,D,Mousterian,10
+mmlu_pro,mmlu_pro_613,183,,613,test,H,$363.75,10
+mmlu_pro,mmlu_pro_8746,184,,8746,test,B,1.414,10
+mmlu_pro,mmlu_pro_2313,185,,2313,test,E,Maturation refers to the development of bodily processes and the changes in behavior that result from such development.,10
+mmlu_pro,mmlu_pro_366,186,,366,test,D,Role culture,6
+mmlu_pro,mmlu_pro_1442,187,,1442,test,H,"the farmer, because the covenants are personalin nature and do not run with the land.",9
+mmlu_pro,mmlu_pro_4354,188,,4354,test,F,0.405 $\mathrm{~N}$,10
+mmlu_pro,mmlu_pro_4319,189,,4319,test,G,1.04 × 10^-5 m bar,10
+mmlu_pro,mmlu_pro_11731,190,,11731,test,E,1665 Btu/hr-ft2-°F,10
+mmlu_pro,mmlu_pro_10479,191,,10479,test,D,Associativity can be achieved with appropriate roundoff conventions.,5
+mmlu_pro,mmlu_pro_754,192,,754,test,D,"Economic, Legal, Ethical and Philanthropic",10
+mmlu_pro,mmlu_pro_8317,193,,8317,test,J,241,10
+mmlu_pro,mmlu_pro_1900,194,,1900,test,A,Neither burglary nor attempted violation of the statute.,9
+mmlu_pro,mmlu_pro_6268,195,,6268,test,A,> 95%,10
+mmlu_pro,mmlu_pro_1237,196,,1237,test,G,"No, because the friend is not a named insured on the title insurance policy.",10
+mmlu_pro,mmlu_pro_11039,197,,11039,test,D,The parents have good motives.,10
+mmlu_pro,mmlu_pro_316,198,,316,test,H,Gouldner,10
+mmlu_pro,mmlu_pro_7876,199,,7876,test,F,650000 $\mathrm{ft-lb}$,10
+mmlu_pro,mmlu_pro_5801,200,,5801,test,C,"they involved short, simple sentences with a small vocabulary",7
+mmlu_pro,mmlu_pro_1845,201,,1845,test,D,"constitutional, because there is a rational basis for distinguishing between non-physicians are not so engaged.",9
+mmlu_pro,mmlu_pro_1971,202,,1971,test,D,neither larceny nor embezzlement.,10
+mmlu_pro,mmlu_pro_7167,203,,7167,test,J,Shifts down Falls Rises,10
+mmlu_pro,mmlu_pro_1188,204,,1188,test,B,"Yes, because the passenger was not actively participating in a joint enterprise and did not do enough to contribute to the cause of the accident.",7
+mmlu_pro,mmlu_pro_6579,205,,6579,test,H,29.7 kJ or 7.1 kcal per g,10
+mmlu_pro,mmlu_pro_3481,206,,3481,test,C,By using operant conditioning and observing the dog's response to different sound frequencies,9
+mmlu_pro,mmlu_pro_1366,207,,1366,test,J,The right to public employment is a protected property interest and the employees would likely prevail because of lack of procedural due process.,10
+mmlu_pro,mmlu_pro_7103,208,,7103,test,G,Decreasing Increasing,9
+mmlu_pro,mmlu_pro_1836,209,,1836,test,E,"The house painter's performance under the contract would be an express condition precedent to the homeowner's duty of payment of the $10,000.",10
+mmlu_pro,mmlu_pro_9369,210,,9369,test,C,450 m,10
+mmlu_pro,mmlu_pro_10672,211,,10672,test,A,4,10
+mmlu_pro,mmlu_pro_7482,212,,7482,test,H,the retirement age is lowered.,8
+mmlu_pro,mmlu_pro_8751,213,,8751,test,B,0.0,10
+mmlu_pro,mmlu_pro_7928,214,,7928,test,I,12 – 2 – 2 – 2 – 2 – 2 – 2,9
+mmlu_pro,mmlu_pro_3725,215,,3725,test,A,9.1445 x 10^-27 J T-1,10
+mmlu_pro,mmlu_pro_6022,216,,6022,test,E,AIDS,5
+mmlu_pro,mmlu_pro_12143,217,,12143,test,H,"1200psia= 81.7atm, 68.2 atm, 70.8atm",10
+mmlu_pro,mmlu_pro_11038,218,,11038,test,H,~(M ∨ S),10
+mmlu_pro,mmlu_pro_654,219,,654,test,A,$133.50,10
+mmlu_pro,mmlu_pro_10052,220,,10052,test,C,The image flips over.,10
+mmlu_pro,mmlu_pro_1728,221,,1728,test,F,"win, because there was no constructive eviction.",9
+mmlu_pro,mmlu_pro_4575,222,,4575,test,H,0.24 JK^-1,10
+mmlu_pro,mmlu_pro_1198,223,,1198,test,B,"No, there was no police misconduct or overreaching, and as a result the confession is voluntary.",9
+mmlu_pro,mmlu_pro_1170,224,,1170,test,J,"granted, because the second statement was the fruit of the first statement.",10
+mmlu_pro,mmlu_pro_9436,225,,9436,test,C,heats water,10
+mmlu_pro,mmlu_pro_9742,226,,9742,test,J,8.95,10
+mmlu_pro,mmlu_pro_6637,227,,6637,test,C,Replacement of saturated fatty acids with large amounts of carbohydrate is associated with decreased LDL and increased plasma triglyceride concentrations,5
+mmlu_pro,mmlu_pro_1022,228,,1022,test,G,admissible as an excited utterance.,9
+mmlu_pro,mmlu_pro_5633,229,,5633,test,A,Make inquiries of management concerning restrictions on the availability of cash balances.,10
+mmlu_pro,mmlu_pro_305,230,,305,test,E,$1.94,10
+mmlu_pro,mmlu_pro_1074,231,,1074,test,J,"granted, because the police did not have probable cause to conduct the search of her purse.",10
+mmlu_pro,mmlu_pro_958,232,,958,test,J,"When a police officer has made a lawful custodial arrest of an individual, he may, as a contemporaneous incident of that arrest, search the person of the individual.",10
+mmlu_pro,mmlu_pro_6520,233,,6520,test,D,"China, the U.S. and Russia",10
+mmlu_pro,mmlu_pro_5726,234,,5726,test,F,When victims of abuse remain silent about the abuse,9
+mmlu_pro,mmlu_pro_5184,235,,5184,test,G,6%,10
+mmlu_pro,mmlu_pro_3286,236,,3286,test,E,82 students,10
+mmlu_pro,mmlu_pro_7135,237,,7135,test,D,Poverty is the condition of having too little money to fulfill basic needs as society currently defines those needs.,10
+mmlu_pro,mmlu_pro_212,238,,212,test,J,1.372,10
+mmlu_pro,mmlu_pro_11346,239,,11346,test,A,3.12 in,10
+mmlu_pro,mmlu_pro_12226,240,,12226,test,C,3.42 × 10^12 Ω,10
+mmlu_pro,mmlu_pro_9852,241,,9852,test,G,$0.346$$\mathrm{~m}$,10
+mmlu_pro,mmlu_pro_6488,242,,6488,test,B,Systemic hypertension,10
+mmlu_pro,mmlu_pro_8231,243,,8231,test,F,75 - 0.5244(14),10
+mmlu_pro,mmlu_pro_11552,244,,11552,test,H,20 ohms,10
+mmlu_pro,mmlu_pro_11065,245,,11065,test,G,deliberative justification.,10
+mmlu_pro,mmlu_pro_11962,246,,11962,test,C,"1480K, highest gain first",10
+mmlu_pro,mmlu_pro_9216,247,,9216,test,D,radioactivity.,10
+mmlu_pro,mmlu_pro_6947,248,,6947,test,I,Poor countries will have low growth rates,10
+mmlu_pro,mmlu_pro_6595,249,,6595,test,A,carcinoma.,10
+mmlu_pro,mmlu_pro_9404,250,,9404,test,C,9 lb,10
+mmlu_pro,mmlu_pro_9105,251,,9105,test,B,"m = 20 u, q = –1 e",10
+mmlu_pro,mmlu_pro_3406,252,,3406,test,D,"Insects are divided into different orders based primarily upon wing structure, type of mouthparts, and the type of metamorphosis they undergo. The class Insecta is divided into two subclasses, Apterygota and Pterygota.",10
+mmlu_pro,mmlu_pro_4589,253,,4589,test,A,"- 119,767 cal",10
+mmlu_pro,mmlu_pro_304,254,,304,test,G,"$18,526",10
+mmlu_pro,mmlu_pro_8136,255,,8136,test,H,18 = p − 4; 22,8
+mmlu_pro,mmlu_pro_2725,256,,2725,test,F,12 in females only,10
+mmlu_pro,mmlu_pro_10570,257,,10570,test,G,900,10
+mmlu_pro,mmlu_pro_7223,258,,7223,test,A,Net exports and GDP both fall.,10
+mmlu_pro,mmlu_pro_6820,259,,6820,test,C,13%,10
+mmlu_pro,mmlu_pro_8262,260,,8262,test,E,the total number of students in each teacher’s class,10
+mmlu_pro,mmlu_pro_731,261,,731,test,D,$432.35,10
+mmlu_pro,mmlu_pro_1197,262,,1197,test,B,The performance of the roofer would be a constructive condition precedent to the performance by the homeowner.,9
+mmlu_pro,mmlu_pro_2479,263,,2479,test,I,"""Rubber-band"" hypothesis",10
+mmlu_pro,mmlu_pro_11164,264,,11164,test,B,"by suggesting that the harm of rape is that it is nonconsensual, it implies that all consensual sex is good.",10
+mmlu_pro,mmlu_pro_3972,265,,3972,test,B,b and c are Hermitan,4
+mmlu_pro,mmlu_pro_1918,266,,1918,test,H,"not prevail, because the shareholder was an incidental beneficiary of the bank's sale of the company's assets.",10
+mmlu_pro,mmlu_pro_1410,267,,1410,test,H,The manufacturer's case is moot.,10
+mmlu_pro,mmlu_pro_8939,268,,8939,test,A,1.0,10
+mmlu_pro,mmlu_pro_8700,269,,8700,test,J,2,10
+mmlu_pro,mmlu_pro_6574,270,,6574,test,G,Meat and meat products,10
+mmlu_pro,mmlu_pro_5660,271,,5660,test,B,"The roles that women played in violence, be it as victims, perpetrators or otherwise, was framed in terms of what effect their roles had on the state, rather than as individuals or as women.",4
+mmlu_pro,mmlu_pro_5319,272,,5319,test,I,Diminished economic resources,10
+mmlu_pro,mmlu_pro_7183,273,,7183,test,A,(ii) and (iv) only,10
+mmlu_pro,mmlu_pro_7413,274,,7413,test,F,All human abilities or talents used in the production of goods or services.,10
+mmlu_pro,mmlu_pro_4425,275,,4425,test,A,"1,4-dichlorobenzene",10
+mmlu_pro,mmlu_pro_6529,276,,6529,test,F,"The root value of the biceps reflex is C5, C6",9
+mmlu_pro,mmlu_pro_101,277,,101,test,H,"280,000 units and $350,000",10
+mmlu_pro,mmlu_pro_10151,278,,10151,test,D,3.2 × 10^2 N,10
+mmlu_pro,mmlu_pro_2792,279,,2792,test,E,"Advantages: compensate for cultural disadvantages and measure innate abilities fairly. Disadvantages: lose predictive and diagnostic value, and may not provide useful information for success within the culture.",10
+mmlu_pro,mmlu_pro_7306,280,,7306,test,A,Economic resources are allocated according to the decisions of the central bank.,4
+mmlu_pro,mmlu_pro_3541,281,,3541,test,C,trigonal pyramidal,10
+mmlu_pro,mmlu_pro_993,282,,993,test,B,"the buyer, because the covenant against encumbrances would be breached at the time the deed was delivered, thereby entitling the covenantee to recover damages.",4
+mmlu_pro,mmlu_pro_8417,283,,8417,test,E,0.73575888,10
+mmlu_pro,mmlu_pro_7455,284,,7455,test,D,"The use of land also constitutes a cost, in this sense an implicit cost, that is the money payments which the land resource could have earned in their best alternative employments.",4
+mmlu_pro,mmlu_pro_9399,285,,9399,test,A,20 kilotons TNT,10
+mmlu_pro,mmlu_pro_1843,286,,1843,test,G,Battery and trespass to land.,9
+mmlu_pro,mmlu_pro_10398,287,,10398,test,C,Message Integrity,10
+mmlu_pro,mmlu_pro_7354,288,,7354,test,B,a tax credit on capital investment.,10
+mmlu_pro,mmlu_pro_173,289,,173,test,G,$172.08,10
+mmlu_pro,mmlu_pro_7767,290,,7767,test,F,1.0,10
+mmlu_pro,mmlu_pro_290,291,,290,test,D,"$2,006 and $1,986",10
+mmlu_pro,mmlu_pro_1895,292,,1895,test,C,"Yes, the police must obtain an arrest warrant to enter someone's home for an arrest.",10
+mmlu_pro,mmlu_pro_6310,293,,6310,test,F,pinching the nares together for 5 minutes,10
+mmlu_pro,mmlu_pro_5450,294,,5450,test,I,watermelon,10
+mmlu_pro,mmlu_pro_2546,295,,2546,test,I,Experiments showing auditory recoding in recall process and the detrimental effects of interruptions in rhythmic sequence on recall.,10
+mmlu_pro,mmlu_pro_1608,296,,1608,test,C,"The home owner asks the contractor if they would be willing to build the house for $95,000.",10
+mmlu_pro,mmlu_pro_5410,297,,5410,test,E,$25.00,10
+mmlu_pro,mmlu_pro_11353,298,,11353,test,A,"20 kHz, 40 kHz",10
+mmlu_pro,mmlu_pro_7268,299,,7268,test,H,Income falls by 9.9% with income tax and 12.4% with sales tax,10
+mmlu_pro,mmlu_pro_8221,300,,8221,test,A,$-\frac{1}{2}$,10
+mmlu_pro,mmlu_pro_5221,301,,5221,test,J,urethra,10
+mmlu_pro,mmlu_pro_12221,302,,12221,test,H,4 percent of the power is reflected; source supplies all the 50W power to the load with 50 ohm,10
+mmlu_pro,mmlu_pro_7895,303,,7895,test,A,2,10
+mmlu_pro,mmlu_pro_8122,304,,8122,test,G,the skewed salary distribution tells us that assumption of normality of the sampled population will not be satisfied,10
+mmlu_pro,mmlu_pro_8762,305,,8762,test,B,198.7 $\mathrm{m}$,10
+mmlu_pro,mmlu_pro_11071,306,,11071,test,F,to eat food.,10
+mmlu_pro,mmlu_pro_3573,307,,3573,test,E,1.54 Kcal,10
+mmlu_pro,mmlu_pro_2300,308,,2300,test,A,"Psychologists have developed three basic hypotheses to account for the process of symptom selection: the learning hypothesis, the genetic hypothesis, and the developmental stage hypothesis.",10
+mmlu_pro,mmlu_pro_878,309,,878,test,H,"The nephew has a life estate, the niece has a life estate pur autre vie, and the gardener has a vested remainder.",10
+mmlu_pro,mmlu_pro_6210,310,,6210,test,C,Erythromycin.,10
+mmlu_pro,mmlu_pro_4733,311,,4733,test,H,"5,000 B.P.",10
+mmlu_pro,mmlu_pro_9331,312,,9331,test,E,35.8,10
+mmlu_pro,mmlu_pro_8544,313,,8544,test,D,"There is a 95% probability that the mean income per family in the school is between $35,095 and $45,005.",10
+mmlu_pro,mmlu_pro_6925,314,,6925,test,C,"Unemployment can depress growth by reducing investment and capital accumulation, slowing the introduction of new technology, and leading to a lack of skilled personnel.",4
+mmlu_pro,mmlu_pro_5496,315,,5496,test,B,Enabling,10
+mmlu_pro,mmlu_pro_4065,316,,4065,test,G,"Second order, rate = k[OH^-][CH_3COOCH_2CH_3]",10
+mmlu_pro,mmlu_pro_769,317,,769,test,J,660,10
+mmlu_pro,mmlu_pro_7787,318,,7787,test,C,"Yes, with p=3.",10
+mmlu_pro,mmlu_pro_2348,319,,2348,test,E,cooperate with the Committee's request by sending it the information you believe to be relevant to the case after confirming that the client has signed a release.,8
+mmlu_pro,mmlu_pro_1581,320,,1581,test,J,"No, because the insurance adjuster's statements did not cause the pedestrian any monetary loss.",10
+mmlu_pro,mmlu_pro_215,321,,215,test,A,$18.109375 per share,10
+mmlu_pro,mmlu_pro_8962,322,,8962,test,G,2,10
+mmlu_pro,mmlu_pro_3458,323,,3458,test,I,Restriction enzymes are nucleases that recognize very specific sequences of DNA and can cut a double-stranded molecule of DNA at these recognition sites.,10
+mmlu_pro,mmlu_pro_5442,324,,5442,test,G,35%,10
+mmlu_pro,mmlu_pro_4383,325,,4383,test,F,108.2 g / equiv.,10
+mmlu_pro,mmlu_pro_11951,326,,11951,test,C,"2935.2 Btu/hr-ft^2-°F, 2642.3 Btu/hr-ft^2-°F, 2751.6 Btu/hr-ft^2-°F",10
+mmlu_pro,mmlu_pro_2380,327,,2380,test,F,emic,10
+mmlu_pro,mmlu_pro_6944,328,,6944,test,A,The bank will lose an equivalent amount of reserve balances with the Federal Reserve,10
+mmlu_pro,mmlu_pro_3309,329,,3309,test,D,The female bacterium becomes a male by receiving one copy of the F factor.,10
+mmlu_pro,mmlu_pro_4377,330,,4377,test,J,O_2 volume is 25 liters and CO_2 volume is 50 liters,10
+mmlu_pro,mmlu_pro_1334,331,,1334,test,C,"the boy loses, because he did not act with the amount of care that one would expect from a 12-year-old child.",9
+mmlu_pro,mmlu_pro_8532,332,,8532,test,H,11.58 m/s,10
+mmlu_pro,mmlu_pro_12148,333,,12148,test,C,"Diameter: 1.71 ft, Head: 46.8 ft",10
+mmlu_pro,mmlu_pro_2274,334,,2274,test,F,"in the later stages, each partner's behavior has become more predictable.",9
+mmlu_pro,mmlu_pro_135,335,,135,test,I,10.75,10
+mmlu_pro,mmlu_pro_5710,336,,5710,test,E,10.4 percent,10
+mmlu_pro,mmlu_pro_805,337,,805,test,B,"x = $75, y = $20",10
+mmlu_pro,mmlu_pro_2016,338,,2016,test,C,pressure receptors,10
+mmlu_pro,mmlu_pro_5999,339,,5999,test,F,Improved birth control methods,9
+mmlu_pro,mmlu_pro_10631,340,,10631,test,D,"True, True",10
+mmlu_pro,mmlu_pro_5977,341,,5977,test,B,A chain of coastal volcanic mountains,8
+mmlu_pro,mmlu_pro_9695,342,,9695,test,A,15%,10
+mmlu_pro,mmlu_pro_10268,343,,10268,test,A,0.955,10
+mmlu_pro,mmlu_pro_8297,344,,8297,test,A,-0.375,10
+mmlu_pro,mmlu_pro_11518,345,,11518,test,D,14 m/s,10
+mmlu_pro,mmlu_pro_6087,346,,6087,test,D,No variation with posture,10
+mmlu_pro,mmlu_pro_828,347,,828,test,B,Opinion leaders.,10
+mmlu_pro,mmlu_pro_11044,348,,11044,test,D,none of the above,4
+mmlu_pro,mmlu_pro_8977,349,,8977,test,J,"From the list of all customers who joined in the last 12 months, classify customers by the state in which they live, then choose 3% of the customers from each state.",10
+mmlu_pro,mmlu_pro_6492,350,,6492,test,F,Amputation,9
+mmlu_pro,mmlu_pro_3015,351,,3015,test,I,"frequency L^M = .785, frequency L^N = .215",10
+mmlu_pro,mmlu_pro_721,352,,721,test,F,"3.06% = 30.6 mills per dollar, 6.85% = 68.5 mills per dollar",10
+mmlu_pro,mmlu_pro_10155,353,,10155,test,H,proportional to R^(3/2),10
+mmlu_pro,mmlu_pro_1289,354,,1289,test,C,"Separated law from religion, ethics, sociology and history",4
+mmlu_pro,mmlu_pro_12001,355,,12001,test,C,"a) 186 V, b) 106.5 V",10
+mmlu_pro,mmlu_pro_5847,356,,5847,test,C,Nonaudit services to perform financial information systems design and implementation.,8
+mmlu_pro,mmlu_pro_9725,357,,9725,test,F,(1/3) AU,10
+mmlu_pro,mmlu_pro_5152,358,,5152,test,E,There is no specific referent point.,10
+mmlu_pro,mmlu_pro_5663,359,,5663,test,G,"A culture characterized by rivalry, which has dominated since the beginning of the modern system of states and in which actors regard each other as rivals but exercise some restraint in violence.",10
+mmlu_pro,mmlu_pro_7071,360,,7071,test,F,Regressive,10
+mmlu_pro,mmlu_pro_4801,361,,4801,test,C,Korea remains divided into two nations near the 38th parallel.,10
+mmlu_pro,mmlu_pro_1694,362,,1694,test,I,overrule objection because the butler's testimony would qualify under the pedigree exception to the hearsay rule.,10
+mmlu_pro,mmlu_pro_7448,363,,7448,test,J,"(i), (ii), and (iii) only",10
+mmlu_pro,mmlu_pro_12022,364,,12022,test,E,"62,500 psi",10
+mmlu_pro,mmlu_pro_9916,365,,9916,test,C,"0.04 volt, 0.002 amperes, 0.00025 coulomb",10
+mmlu_pro,mmlu_pro_7022,366,,7022,test,J,"Apparent unemployment is when a worker is involuntarily out of work, while disguised unemployment or underemployment is when the worker may have a job but is not employed to the limits of his capability.",10
+mmlu_pro,mmlu_pro_2992,367,,2992,test,G,an individual's phenotype,10
+mmlu_pro,mmlu_pro_482,368,,482,test,C,"$8,514",10
+mmlu_pro,mmlu_pro_11242,369,,11242,test,F,Waraqah,10
+mmlu_pro,mmlu_pro_6662,370,,6662,test,J,In the upper wall of the right atrium,10
+mmlu_pro,mmlu_pro_8882,371,,8882,test,A,We are 95% confident that the average donation in November is between about $149 and $161.,10
+mmlu_pro,mmlu_pro_153,372,,153,test,I,Compounded quarterly,10
+mmlu_pro,mmlu_pro_5854,373,,5854,test,A,mental map.,8
+mmlu_pro,mmlu_pro_7620,374,,7620,test,G,A method of production is technically efficient if there is no other method that maintains the same level of output using less of one factor input without increasing another.,10
+mmlu_pro,mmlu_pro_8370,375,,8370,test,G,the open first quadrant,10
+mmlu_pro,mmlu_pro_1927,376,,1927,test,D,"not prevail, unless he is able to prove malice on the defendant's part.",10
+mmlu_pro,mmlu_pro_705,377,,705,test,F,$22.72,10
+mmlu_pro,mmlu_pro_3738,378,,3738,test,G,+65.49$\mathrm{kJ} \mathrm{mol}^{-1}$,10
+mmlu_pro,mmlu_pro_2248,379,,2248,test,H,Autonomic conditioning refers to the operant conditioning of autonomic responses such as heart rate and intestinal contractions.,8
+mmlu_pro,mmlu_pro_291,380,,291,test,C,Cost = 1200 + 1.5 X,10
+mmlu_pro,mmlu_pro_1624,381,,1624,test,E,"No, because even without negligence there is strict liability imposed for selling an unreasonably dangerous product.",10
+mmlu_pro,mmlu_pro_8537,382,,8537,test,B,$144$,10
+mmlu_pro,mmlu_pro_3207,383,,3207,test,G,Introns are removed and both a 5′ cap and a poly-A tail are added before the preRNA leaves the nucleus.,10
+mmlu_pro,mmlu_pro_7274,384,,7274,test,A,"Inefficient satisfaction of consumers' desires, emphasis on physical output obscuring quality and cost, resistance to superior technologies due to higher production quotas",8
+mmlu_pro,mmlu_pro_9359,385,,9359,test,B,Mass 5kg weight 25N,10
+mmlu_pro,mmlu_pro_3023,386,,3023,test,F,48 percent,10
+mmlu_pro,mmlu_pro_4439,387,,4439,test,I,reduced mass,10
+mmlu_pro,mmlu_pro_9182,388,,9182,test,F,"43,000 calories",10
+mmlu_pro,mmlu_pro_10315,389,,10315,test,H,75 g block of ice floating in water at 0°C,10
+mmlu_pro,mmlu_pro_8586,390,,8586,test,A,240,10
+mmlu_pro,mmlu_pro_1336,391,,1336,test,J,the security guard was not employed by an agency of the government.,10
+mmlu_pro,mmlu_pro_2272,392,,2272,test,E,uninvited in-person solicitations for therapy of hurricane victims that destroyed their homes,9
+mmlu_pro,mmlu_pro_7203,393,,7203,test,G,A time period over which every input in the production process may be considered variable,10
+mmlu_pro,mmlu_pro_4385,394,,4385,test,I,"9.21 Kcal/mole, 91.17 Kcal/mole",10
+mmlu_pro,mmlu_pro_11236,395,,11236,test,E,a prescription of how we should treat humans.,10
+mmlu_pro,mmlu_pro_4490,396,,4490,test,C,5.0 cm,10
+mmlu_pro,mmlu_pro_6999,397,,6999,test,A,Product differentiation and loss of perfect substitutability,10
+mmlu_pro,mmlu_pro_9905,398,,9905,test,E,7.9 × 10^3 cal,10
+mmlu_pro,mmlu_pro_11686,399,,11686,test,J,1.50 × 10^7t - 2.23 sin (2\pi × 10^6t) m,10
+mmlu_pro,mmlu_pro_9283,400,,9283,test,G,21 cm,10
+mmlu_pro,mmlu_pro_121,401,,121,test,F,61.5,10
+mmlu_pro,mmlu_pro_5337,402,,5337,test,A,red and yellow,10
+mmlu_pro,mmlu_pro_8873,403,,8873,test,D,"True, True",4
+mmlu_pro,mmlu_pro_5070,404,,5070,test,B,State and federal governments working on the same issue,10
+mmlu_pro,mmlu_pro_1224,405,,1224,test,A,the co-worker and the student as tenants in common.,10
+mmlu_pro,mmlu_pro_6477,406,,6477,test,C,Low density lipoprotein receptor,10
+mmlu_pro,mmlu_pro_6459,407,,6459,test,I,Belmont Report,10
+mmlu_pro,mmlu_pro_8308,408,,8308,test,C,35,10
+mmlu_pro,mmlu_pro_888,409,,888,test,A,"On the one hand, naturalism is based on a set of rules that are of universal and objective scope and on the other hand, positivism is based on a structured and coherent legal system that is created by States in light of their interests and desires",4
+mmlu_pro,mmlu_pro_6998,410,,6998,test,H,"$60,000",10
+mmlu_pro,mmlu_pro_8434,411,,8434,test,J,$15.757$,10
+mmlu_pro,mmlu_pro_11442,412,,11442,test,A,"89,368.79 kJ",10
+mmlu_pro,mmlu_pro_9756,413,,9756,test,D,2.69 inches,10
+mmlu_pro,mmlu_pro_8385,414,,8385,test,D,3.82,10
+mmlu_pro,mmlu_pro_2111,415,,2111,test,A,Both endogenous (biological) and environmental factors are recognized as essential in human development.,10
+mmlu_pro,mmlu_pro_1217,416,,1217,test,E,"The landlord, because he gave proper notice to terminate the tenancy.",9
+mmlu_pro,mmlu_pro_8644,417,,8644,test,E,1000 $\Omega$,10
+mmlu_pro,mmlu_pro_9506,418,,9506,test,G,"32,000 candles",10
+mmlu_pro,mmlu_pro_1855,419,,1855,test,H,"burglary, robbery, and murder.",10
+mmlu_pro,mmlu_pro_9312,420,,9312,test,B,density,10
+mmlu_pro,mmlu_pro_11191,421,,11191,test,D,(∃x)[(Cx • Px) • (∃y)(Ay • Nxy)],9
+mmlu_pro,mmlu_pro_1661,422,,1661,test,A,The risk must emanate from a state agent,4
+mmlu_pro,mmlu_pro_5006,423,,5006,test,D,craniometrics is an unreliable method of tracking populations.,9
+mmlu_pro,mmlu_pro_402,424,,402,test,A,"Cost of goods sold: $15,070, Gross profit: $11,730",10
+mmlu_pro,mmlu_pro_11791,425,,11791,test,E,3.74 hp,10
+mmlu_pro,mmlu_pro_2541,426,,2541,test,B,Acts as a messenger and directs some simple actions independently,10
+mmlu_pro,mmlu_pro_1831,427,,1831,test,J,Fifteenth Amendment.,10
+mmlu_pro,mmlu_pro_11511,428,,11511,test,C,"15,500atm",10
+mmlu_pro,mmlu_pro_5116,429,,5116,test,A,Increasing the reliability of financial reporting and compliance with applicable laws and regulations.,9
+mmlu_pro,mmlu_pro_5071,430,,5071,test,D,"With the expansion of TNC in the 1990s, states became increasingly willing to take measures to reduce the asymmetries between countries through harmonization of legislation and increasing police capacity and networking. The government response to transnational crime has focused on targeting the individuals and organizations perpetrating the crime, rather than the criminal markets themselves.",7
+mmlu_pro,mmlu_pro_983,431,,983,test,G,assign the burden of proving the validity of the authenticating requirement to thestate.,10
+mmlu_pro,mmlu_pro_10232,432,,10232,test,H,8 m/s,10
+mmlu_pro,mmlu_pro_10322,433,,10322,test,A,35.5A,10
+mmlu_pro,mmlu_pro_4735,434,,4735,test,D,Alaska.,4
+mmlu_pro,mmlu_pro_9502,435,,9502,test,B,1.5 ohms,10
+mmlu_pro,mmlu_pro_3646,436,,3646,test,C,7 $10^{-25} \mathrm{~J}$,10
+mmlu_pro,mmlu_pro_6829,437,,6829,test,I,the United States to be a net exporter of copper.,10
+mmlu_pro,mmlu_pro_5344,438,,5344,test,C,Single.,10
+mmlu_pro,mmlu_pro_8015,439,,8015,test,D,20 bars of soap for $45.00,10
+mmlu_pro,mmlu_pro_6880,440,,6880,test,D,$175 billion and $350 billion,10
+mmlu_pro,mmlu_pro_6954,441,,6954,test,I,"land, labor and capital",10
+mmlu_pro,mmlu_pro_9061,442,,9061,test,C,-131.1 $\mathrm{~kJ} \mathrm{~mol}^{-1}$,10
+mmlu_pro,mmlu_pro_8617,443,,8617,test,I,"[3, 1]",10
+mmlu_pro,mmlu_pro_8343,444,,8343,test,A,The sample proportion of students at this university with the correct address on record is within the confidence interval.,10
+mmlu_pro,mmlu_pro_3557,445,,3557,test,D,$4.2 \times 10^2$ $\mathrm{J}$,10
+mmlu_pro,mmlu_pro_5836,446,,5836,test,G,Nonsampling risk can arise because an auditor failed to recognize misstatements.,7
+mmlu_pro,mmlu_pro_9489,447,,9489,test,C,1.27$10^6$,10
+mmlu_pro,mmlu_pro_12129,448,,12129,test,I,Row number on periodic table.,10
+mmlu_pro,mmlu_pro_9050,449,,9050,test,G,600 nm,10
+mmlu_pro,mmlu_pro_11455,450,,11455,test,E,"0.47 ft, 0.0102 ft, 1.92 × 10^-3",10
+mmlu_pro,mmlu_pro_6589,451,,6589,test,A,Myosin-actin detachment,10
+mmlu_pro,mmlu_pro_2384,452,,2384,test,G,a change in attribution with the realization that one can sometimes succeed,9
+mmlu_pro,mmlu_pro_11475,453,,11475,test,C,164.8MPa,10
+mmlu_pro,mmlu_pro_4866,454,,4866,test,E,Harappan seals have been found in Mesopotamia and Mesopotamian cylinder seals have been found in the Indus valley.,8
+mmlu_pro,mmlu_pro_1083,455,,1083,test,A,"The plaintiff must demonstrate that there is no rational relationship between the ordinance and any legitimate state interest, because the ordinance regulates economic activity of a type normally presumed to be within state regulatory authority.",10
+mmlu_pro,mmlu_pro_10530,456,,10530,test,C,"True, False",4
+mmlu_pro,mmlu_pro_11570,457,,11570,test,C,y(x) = c_1y_1(x) + c_2y_2(x),10
+mmlu_pro,mmlu_pro_10326,458,,10326,test,B,"The block, because it does not gain rotational kinetic energy, but the sphere does",10
+mmlu_pro,mmlu_pro_3303,459,,3303,test,J,Dormancy is a special condition of rest which enables an embryo to survive long periods of un-favorable environmental conditions. The termination of dormancy and the germination of a seed require very precise combinations of environmental cues.,10
+mmlu_pro,mmlu_pro_8876,460,,8876,test,E,"True, False",10
+mmlu_pro,mmlu_pro_3685,461,,3685,test,A,62,10
+mmlu_pro,mmlu_pro_5251,462,,5251,test,E,parquetry,10
+mmlu_pro,mmlu_pro_10365,463,,10365,test,J,"False, True",10
+mmlu_pro,mmlu_pro_4085,464,,4085,test,F,MgO,10
+mmlu_pro,mmlu_pro_10001,465,,10001,test,F,$0.32$$\mu C$,10
+mmlu_pro,mmlu_pro_3792,466,,3792,test,I,1.571 × 10^-3,10
+mmlu_pro,mmlu_pro_11863,467,,11863,test,H,3/8,10
+mmlu_pro,mmlu_pro_11643,468,,11643,test,G,"Exit pressure: 375kPaabs, Exit temperature: 291.7K, Flowrate: 0.735 kg/sec",10
+mmlu_pro,mmlu_pro_4118,469,,4118,test,E,"H_2SO_4, P(OH)_3, 4 Cl_2",10
+mmlu_pro,mmlu_pro_6616,470,,6616,test,D,indirect myofascial release,10
+mmlu_pro,mmlu_pro_3704,471,,3704,test,F,"\DeltaH = 21.3 kcal, \DeltaE = 20.7 kcal",10
+mmlu_pro,mmlu_pro_913,472,,913,test,E,"No, because when they passed the statute appropriating monies for the operation of executive agencies, members of Congress assumed that those agencies' offices would be open five days per week.",10
+mmlu_pro,mmlu_pro_8559,473,,8559,test,B,−45,10
+mmlu_pro,mmlu_pro_1445,474,,1445,test,D,"No, because it is more extensive than necessary to serve the government interest in preventing certain cancers.",10
+mmlu_pro,mmlu_pro_11018,475,,11018,test,H,pleasure and the absence of pain.,10
+mmlu_pro,mmlu_pro_957,476,,957,test,G,"Because of a recent hand injury, the artist did not have sufficient time to produce a portrait of a quality satisfactory to the man.",9
+mmlu_pro,mmlu_pro_411,477,,411,test,B,1.84%,10
+mmlu_pro,mmlu_pro_452,478,,452,test,B,"22 ft, 575.12 pints, 110 pounds",10
+mmlu_pro,mmlu_pro_3724,479,,3724,test,F,Transition metals will lose their outermost s-block electrons when forming bonds.,10
+mmlu_pro,mmlu_pro_10140,480,,10140,test,H,8,10
+mmlu_pro,mmlu_pro_6989,481,,6989,test,A,They are not theoretically motivated,4
+mmlu_pro,mmlu_pro_8855,482,,8855,test,A,0.5,10
+mmlu_pro,mmlu_pro_8740,483,,8740,test,F,"[3, 4, 5, 6, 8, 10, 12, 15, 16, 17, 20]",10
+mmlu_pro,mmlu_pro_5601,484,,5601,test,H,68%,10
+mmlu_pro,mmlu_pro_9734,485,,9734,test,B,red and green.,10
+mmlu_pro,mmlu_pro_12151,486,,12151,test,H,106.125 volts across 275 lamps and 112.375 volts across 225 lamps,10
+mmlu_pro,mmlu_pro_4236,487,,4236,test,G,"3.57, 4.07, 13.512",10
+mmlu_pro,mmlu_pro_499,488,,499,test,F,Individual branding.,10
+mmlu_pro,mmlu_pro_2652,489,,2652,test,B,correlations among individual test items,10
+mmlu_pro,mmlu_pro_1643,490,,1643,test,G,Move for relief from the judgment on the ground that the plaintiff committed a fraud in obtaining damages for permanent injuries.,10
+mmlu_pro,mmlu_pro_8887,491,,8887,test,I,8,10
+mmlu_pro,mmlu_pro_3791,492,,3791,test,F,2,10
+mmlu_pro,mmlu_pro_11981,493,,11981,test,B,- 5.1eu,10
+mmlu_pro,mmlu_pro_3918,494,,3918,test,F,32.39 cm,10
+mmlu_pro,mmlu_pro_6505,495,,6505,test,A,Inactivation of cellular p53,4
+mmlu_pro,mmlu_pro_7148,496,,7148,test,G,supply creates its own demand,10
+mmlu_pro,mmlu_pro_6495,497,,6495,test,B,The patient's perception that the physician is uncaring,4
+mmlu_pro,mmlu_pro_7075,498,,7075,test,F,"Drop in pay of $2.50, Marginal tax rate of 125%",10
+mmlu_pro,mmlu_pro_7053,499,,7053,test,G,the supply curve will shift to the right.,10

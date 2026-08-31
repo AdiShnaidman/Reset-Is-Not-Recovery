@@ -1,0 +1,25 @@
+table_name,model,model_key,dataset,dataset_key,condition_or_operation,metric,estimate,ci_low,ci_high,n_items,bootstrap_samples,seed,informative,notes
+semantic_letter,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,semantic_following_rate,0.82,0.786,0.854,500,10000,12345,True,
+semantic_letter,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,old_letter_following_rate,0.068,0.046,0.09,500,10000,12345,True,
+semantic_letter,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,new_wrong_following_rate,0.82,0.786,0.854,500,10000,12345,True,
+semantic_letter,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,chance_old_letter_rate,0.1119119047619047,,,500,10000,12345,False,Deterministic expected value from relabel aggregate; CI not meaningful
+semantic_letter,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,option_relabel_shuffle_reset,semantic_following_rate,0.702,0.66,0.742,500,10000,12345,True,
+semantic_letter,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,option_relabel_shuffle_reset,old_letter_following_rate,0.114,0.088,0.142,500,10000,12345,True,
+semantic_letter,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,option_relabel_shuffle_reset,new_wrong_following_rate,0.702,0.66,0.742,500,10000,12345,True,
+semantic_letter,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,option_relabel_shuffle_reset,chance_old_letter_rate,0.2287657509157509,,,500,10000,12345,False,Deterministic expected value from relabel aggregate; CI not meaningful
+semantic_letter,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,semantic_following_rate,0.562,0.518,0.606,500,10000,12345,True,
+semantic_letter,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,old_letter_following_rate,0.118,0.09,0.148,500,10000,12345,True,
+semantic_letter,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,new_wrong_following_rate,0.562,0.518,0.606,500,10000,12345,True,
+semantic_letter,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,chance_old_letter_rate,0.1119119047619047,,,500,10000,12345,False,Deterministic expected value from relabel aggregate; CI not meaningful
+semantic_letter,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,option_relabel_shuffle_reset,semantic_following_rate,0.544,0.5,0.588,500,10000,12345,True,
+semantic_letter,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,option_relabel_shuffle_reset,old_letter_following_rate,0.216,0.18,0.252,500,10000,12345,True,
+semantic_letter,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,option_relabel_shuffle_reset,new_wrong_following_rate,0.544,0.5,0.588,500,10000,12345,True,
+semantic_letter,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,option_relabel_shuffle_reset,chance_old_letter_rate,0.2287657509157509,,,500,10000,12345,False,Deterministic expected value from relabel aggregate; CI not meaningful
+semantic_letter,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,semantic_following_rate,0.62,0.576,0.662,500,10000,12345,True,
+semantic_letter,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,old_letter_following_rate,0.052,0.034,0.072,500,10000,12345,True,
+semantic_letter,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,new_wrong_following_rate,0.62,0.576,0.662,500,10000,12345,True,
+semantic_letter,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,chance_old_letter_rate,0.1119119047619047,,,500,10000,12345,False,Deterministic expected value from relabel aggregate; CI not meaningful
+semantic_letter,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,semantic_following_rate,0.496,0.454,0.54,500,10000,12345,True,
+semantic_letter,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,old_letter_following_rate,0.09,0.066,0.116,500,10000,12345,True,
+semantic_letter,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,new_wrong_following_rate,0.496,0.454,0.54,500,10000,12345,True,
+semantic_letter,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,option_relabel_shuffle_reset,chance_old_letter_rate,0.1119119047619047,,,500,10000,12345,False,Deterministic expected value from relabel aggregate; CI not meaningful

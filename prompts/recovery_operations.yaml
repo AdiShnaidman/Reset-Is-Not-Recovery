@@ -1,0 +1,10 @@
+main_conditions:
+  - ordinary_strong_reset
+  - explicit_user_retraction
+  - system_level_reset
+  - fresh_context_deletion
+  - context_truncation
+  - neutral_summary_replacement
+  - factual_state_reconstruction
+  - self_verification_final_label
+source: src/original_research_scripts/run_recovery_hierarchy.py

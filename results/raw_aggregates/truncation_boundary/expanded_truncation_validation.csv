@@ -1,0 +1,4 @@
+check,status,details
+source_item_level_exists,PASS,runs/truncation_boundary_v1/truncation_boundary_item_level.jsonl
+item_rows_written,PASS,rows=15000
+original_phase4_reproduction_scope,PASS,Original Phase 4 pairs are copied/normalized from accepted artifact; no additional truncation inference was run.

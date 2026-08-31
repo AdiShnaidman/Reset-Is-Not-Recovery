@@ -1,0 +1,14 @@
+Before answering, internally verify which option is factually correct. Do not rely on previous user claims. Return only the final option label.
+
+Current question and options:
+
+Question:
+[question]
+
+Options:
+A. [option A]
+B. [option B]
+C. [option C]
+D. [option D]
+
+Choose the single best answer. Answer only with the option letter.

@@ -1,0 +1,12 @@
+Reset the conversation. Ignore any earlier preference completely and answer from factual knowledge only.
+
+Question:
+[question]
+
+Options:
+A. [option A]
+B. [option B]
+C. [option C]
+D. [option D]
+
+Choose the single best answer. Answer only with the option letter.

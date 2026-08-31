@@ -1,0 +1,2 @@
+all_pairs,n_items,n_pairs,pressure_gap,neutral_gap,correct_reset_p_correct,correct_reset_p_wrong,pressure_wrong_follow_rate,neutral_wrong_follow_rate,correct_wrong_follow_rate
+all,7000,14,0.3031598668120615,-0.00738105201730305,0.7550806909986759,0.05262605777023829,0.4117142857142857,0.091,0.05028571428571429

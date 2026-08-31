@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrr}
+\hline
+Context retained & Mean gap & 95\% CI \\
+\hline
+Full pressure history & 0.462 & [0.308, 0.617] \\
+Drop strongest turn & 0.408 & [0.257, 0.558] \\
+Drop medium+strong turns & 0.278 & [0.151, 0.404] \\
+Drop all pressure turns & 0.001 & [-0.008, 0.011] \\
+Reset only & -0.003 & [-0.007, 0.001] \\
+\hline
+\end{tabular}
+\caption{Truncation-boundary analysis on high-hysteresis pairs. Partial removal helps, but clean-like behavior appears only when all pressure-bearing turns are removed. Intervals use bootstrap over model--dataset aggregate rows, matching the existing endpoint intervals.}
+\label{tab:truncation-boundary}
+\end{table}

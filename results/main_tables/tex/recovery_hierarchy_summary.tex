@@ -1,0 +1,90 @@
+\begin{table}
+\caption{Recovery hierarchy summary.}
+\label{tab:recovery_hierarchy_summary}
+\begin{tabular}{lllrllllllrl}
+\toprule
+model\_short\_name & dataset & condition\_label & evaluated\_n & intervention\_p\_wrong & intervention\_p\_correct & accuracy & wrong\_follow\_rate & lock\_in\_rate & restoration\_ratio & restoration\_ratio\_informative & repair\_classification \\
+\midrule
+Mistral-7B-v0.3 & mmlu\_pro & R0 Ordinary reset & 500 & 0.750 & 0.091 & 0.090 & 0.756 & 0.756 & 0.000 & True & ordinary\_reset\_baseline \\
+Mistral-7B-v0.3 & mmlu\_pro & R1 User retraction & 500 & 0.714 & 0.103 & 0.100 & 0.722 & 0.722 & 0.054 & True & weak\_wrong\_suppression \\
+Mistral-7B-v0.3 & mmlu\_pro & R2 System reset & 500 & 0.739 & 0.093 & 0.090 & 0.744 & 0.744 & 0.017 & True & no\_material\_change \\
+Mistral-7B-v0.3 & mmlu\_pro & R3 Fresh context deletion & 500 & 0.091 & 0.318 & 0.326 & 0.084 & 0.082 & 1.000 & True & restored\_clean\_context\_like \\
+Mistral-7B-v0.3 & mmlu\_pro & R3 Context truncation & 500 & 0.088 & 0.310 & 0.308 & 0.090 & 0.088 & 1.004 & True & restored\_clean\_context\_like \\
+Mistral-7B-v0.3 & mmlu\_pro & R4 Neutral summary & 500 & 0.095 & 0.300 & 0.302 & 0.092 & 0.088 & 0.993 & True & flattening\_or\_suppression \\
+Mistral-7B-v0.3 & mmlu\_pro & R5 Factual-state reconstruction & 500 & 0.091 & 0.299 & 0.306 & 0.090 & 0.086 & 0.999 & True & restored\_clean\_context\_like \\
+Mistral-7B-v0.3 & mmlu\_pro & R6 Self-verification label & 500 & 0.766 & 0.086 & 0.084 & 0.774 & 0.774 & -0.024 & True & no\_material\_change \\
+Mistral-7B-v0.3 & mmlu\_pro & R6 Evidence comparison label & 500 & 0.764 & 0.086 & 0.088 & 0.770 & 0.770 & -0.021 & True & no\_material\_change \\
+Mistral-7B-v0.3 & mmlu\_pro & R2 Source skepticism reset & 500 & 0.739 & 0.090 & 0.088 & 0.750 & 0.750 & 0.017 & True & no\_material\_change \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R0 Ordinary reset & 500 & 0.352 & 0.439 & 0.432 & 0.368 & 0.366 & 0.000 & True & ordinary\_reset\_baseline \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R1 User retraction & 500 & 0.322 & 0.459 & 0.452 & 0.334 & 0.328 & 0.120 & True & weak\_wrong\_suppression \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R2 System reset & 500 & 0.338 & 0.458 & 0.452 & 0.352 & 0.350 & 0.058 & True & no\_material\_change \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R3 Fresh context deletion & 500 & 0.105 & 0.650 & 0.650 & 0.102 & 0.078 & 1.000 & True & restored\_clean\_context\_like \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R3 Context truncation & 500 & 0.106 & 0.659 & 0.654 & 0.104 & 0.080 & 0.996 & True & restored\_clean\_context\_like \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R4 Neutral summary & 500 & 0.105 & 0.663 & 0.662 & 0.106 & 0.084 & 0.999 & True & restored\_clean\_context\_like \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R5 Factual-state reconstruction & 500 & 0.111 & 0.632 & 0.628 & 0.116 & 0.094 & 0.977 & True & restored\_clean\_context\_like \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R6 Self-verification label & 500 & 0.373 & 0.422 & 0.422 & 0.376 & 0.376 & -0.084 & True & worse\_than\_reset \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R6 Evidence comparison label & 500 & 0.371 & 0.424 & 0.424 & 0.380 & 0.374 & -0.079 & True & no\_material\_change \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R2 Source skepticism reset & 500 & 0.346 & 0.439 & 0.442 & 0.358 & 0.352 & 0.022 & True & no\_material\_change \\
+Qwen2.5-14B & mmlu\_pro & R0 Ordinary reset & 500 & 0.356 & 0.359 & 0.360 & 0.358 & 0.358 & 0.000 & True & ordinary\_reset\_baseline \\
+Qwen2.5-14B & mmlu\_pro & R1 User retraction & 500 & 0.240 & 0.397 & 0.392 & 0.244 & 0.244 & 0.429 & True & genuine\_repair\_like \\
+Qwen2.5-14B & mmlu\_pro & R2 System reset & 500 & 0.333 & 0.360 & 0.362 & 0.330 & 0.330 & 0.086 & True & weak\_wrong\_suppression \\
+Qwen2.5-14B & mmlu\_pro & R3 Fresh context deletion & 500 & 0.084 & 0.458 & 0.456 & 0.084 & 0.084 & 1.000 & True & restored\_clean\_context\_like \\
+Qwen2.5-14B & mmlu\_pro & R3 Context truncation & 500 & 0.082 & 0.459 & 0.458 & 0.082 & 0.082 & 1.007 & True & restored\_clean\_context\_like \\
+Qwen2.5-14B & mmlu\_pro & R4 Neutral summary & 500 & 0.084 & 0.462 & 0.458 & 0.086 & 0.086 & 1.002 & True & restored\_clean\_context\_like \\
+Qwen2.5-14B & mmlu\_pro & R5 Factual-state reconstruction & 500 & 0.081 & 0.458 & 0.468 & 0.078 & 0.078 & 1.012 & True & restored\_clean\_context\_like \\
+Qwen2.5-14B & mmlu\_pro & R6 Self-verification label & 500 & 0.343 & 0.351 & 0.352 & 0.342 & 0.342 & 0.047 & True & no\_material\_change \\
+Qwen2.5-14B & mmlu\_pro & R6 Evidence comparison label & 500 & 0.328 & 0.355 & 0.354 & 0.332 & 0.332 & 0.103 & True & weak\_wrong\_suppression \\
+Qwen2.5-14B & mmlu\_pro & R2 Source skepticism reset & 500 & 0.289 & 0.366 & 0.364 & 0.290 & 0.290 & 0.246 & True & flattening\_or\_suppression \\
+Qwen2.5-14B & truthfulqa\_mc & R0 Ordinary reset & 500 & 0.113 & 0.737 & 0.738 & 0.114 & 0.110 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R1 User retraction & 500 & 0.080 & 0.753 & 0.754 & 0.082 & 0.080 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R2 System reset & 500 & 0.107 & 0.733 & 0.732 & 0.108 & 0.106 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R3 Fresh context deletion & 500 & 0.076 & 0.764 & 0.762 & 0.078 & 0.078 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R3 Context truncation & 500 & 0.070 & 0.787 & 0.790 & 0.070 & 0.070 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R4 Neutral summary & 500 & 0.075 & 0.736 & 0.738 & 0.076 & 0.076 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R5 Factual-state reconstruction & 500 & 0.060 & 0.818 & 0.822 & 0.058 & 0.058 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R6 Self-verification label & 500 & 0.103 & 0.741 & 0.738 & 0.106 & 0.106 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R6 Evidence comparison label & 500 & 0.096 & 0.734 & 0.734 & 0.098 & 0.096 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R2 Source skepticism reset & 500 & 0.083 & 0.756 & 0.752 & 0.086 & 0.084 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & mmlu\_pro & R0 Ordinary reset & 500 & 0.726 & 0.091 & 0.086 & 0.752 & 0.752 & 0.000 & True & ordinary\_reset\_baseline \\
+Qwen2.5-1.5B & mmlu\_pro & R1 User retraction & 500 & 0.633 & 0.113 & 0.116 & 0.668 & 0.668 & 0.146 & True & flattening\_or\_suppression \\
+Qwen2.5-1.5B & mmlu\_pro & R2 System reset & 500 & 0.757 & 0.080 & 0.076 & 0.768 & 0.768 & -0.049 & True & worse\_than\_reset \\
+Qwen2.5-1.5B & mmlu\_pro & R3 Fresh context deletion & 500 & 0.091 & 0.274 & 0.274 & 0.084 & 0.084 & 1.000 & True & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & mmlu\_pro & R3 Context truncation & 500 & 0.091 & 0.271 & 0.288 & 0.090 & 0.090 & 1.000 & True & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & mmlu\_pro & R4 Neutral summary & 500 & 0.089 & 0.267 & 0.278 & 0.082 & 0.082 & 1.003 & True & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & mmlu\_pro & R5 Factual-state reconstruction & 500 & 0.097 & 0.267 & 0.266 & 0.096 & 0.096 & 0.991 & True & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & mmlu\_pro & R6 Self-verification label & 500 & 0.760 & 0.081 & 0.078 & 0.772 & 0.772 & -0.055 & True & worse\_than\_reset \\
+Qwen2.5-1.5B & mmlu\_pro & R6 Evidence comparison label & 500 & 0.764 & 0.078 & 0.074 & 0.786 & 0.784 & -0.061 & True & worse\_than\_reset \\
+Qwen2.5-1.5B & mmlu\_pro & R2 Source skepticism reset & 500 & 0.747 & 0.084 & 0.082 & 0.768 & 0.768 & -0.034 & True & worse\_than\_reset \\
+Qwen2.5-1.5B & truthfulqa\_mc & R0 Ordinary reset & 500 & 0.665 & 0.090 & 0.088 & 0.672 & 0.670 & 0.000 & True & ordinary\_reset\_baseline \\
+Qwen2.5-1.5B & truthfulqa\_mc & R1 User retraction & 500 & 0.592 & 0.097 & 0.088 & 0.604 & 0.596 & 0.145 & True & flattening\_or\_suppression \\
+Qwen2.5-1.5B & truthfulqa\_mc & R2 System reset & 500 & 0.739 & 0.058 & 0.060 & 0.740 & 0.732 & -0.148 & True & worse\_than\_reset \\
+Qwen2.5-1.5B & truthfulqa\_mc & R3 Fresh context deletion & 500 & 0.166 & 0.490 & 0.492 & 0.168 & 0.164 & 1.000 & True & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & truthfulqa\_mc & R3 Context truncation & 500 & 0.147 & 0.543 & 0.542 & 0.144 & 0.140 & 1.036 & True & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & truthfulqa\_mc & R4 Neutral summary & 500 & 0.186 & 0.431 & 0.432 & 0.184 & 0.180 & 0.960 & True & genuine\_repair\_like \\
+Qwen2.5-1.5B & truthfulqa\_mc & R5 Factual-state reconstruction & 500 & 0.190 & 0.389 & 0.388 & 0.184 & 0.180 & 0.951 & True & genuine\_repair\_like \\
+Qwen2.5-1.5B & truthfulqa\_mc & R6 Self-verification label & 500 & 0.732 & 0.061 & 0.058 & 0.734 & 0.728 & -0.133 & True & worse\_than\_reset \\
+Qwen2.5-1.5B & truthfulqa\_mc & R6 Evidence comparison label & 500 & 0.735 & 0.064 & 0.062 & 0.742 & 0.738 & -0.140 & True & worse\_than\_reset \\
+Qwen2.5-1.5B & truthfulqa\_mc & R2 Source skepticism reset & 500 & 0.709 & 0.077 & 0.068 & 0.720 & 0.714 & -0.089 & True & worse\_than\_reset \\
+Qwen2.5-7B & mmlu\_pro & R0 Ordinary reset & 500 & 0.343 & 0.307 & 0.306 & 0.344 & 0.344 & 0.000 & True & ordinary\_reset\_baseline \\
+Qwen2.5-7B & mmlu\_pro & R1 User retraction & 500 & 0.305 & 0.312 & 0.310 & 0.316 & 0.316 & 0.144 & True & weak\_wrong\_suppression \\
+Qwen2.5-7B & mmlu\_pro & R2 System reset & 500 & 0.346 & 0.302 & 0.300 & 0.350 & 0.350 & -0.013 & True & no\_material\_change \\
+Qwen2.5-7B & mmlu\_pro & R3 Fresh context deletion & 500 & 0.081 & 0.426 & 0.424 & 0.084 & 0.084 & 1.000 & True & restored\_clean\_context\_like \\
+Qwen2.5-7B & mmlu\_pro & R3 Context truncation & 500 & 0.082 & 0.423 & 0.432 & 0.088 & 0.088 & 0.997 & True & restored\_clean\_context\_like \\
+Qwen2.5-7B & mmlu\_pro & R4 Neutral summary & 500 & 0.086 & 0.422 & 0.424 & 0.086 & 0.086 & 0.979 & True & restored\_clean\_context\_like \\
+Qwen2.5-7B & mmlu\_pro & R5 Factual-state reconstruction & 500 & 0.076 & 0.415 & 0.418 & 0.084 & 0.084 & 1.018 & True & restored\_clean\_context\_like \\
+Qwen2.5-7B & mmlu\_pro & R6 Self-verification label & 500 & 0.343 & 0.306 & 0.306 & 0.346 & 0.346 & -0.002 & True & no\_material\_change \\
+Qwen2.5-7B & mmlu\_pro & R6 Evidence comparison label & 500 & 0.342 & 0.307 & 0.308 & 0.344 & 0.344 & 0.003 & True & no\_material\_change \\
+Qwen2.5-7B & mmlu\_pro & R2 Source skepticism reset & 500 & 0.342 & 0.306 & 0.306 & 0.342 & 0.342 & 0.002 & True & no\_material\_change \\
+Qwen2.5-7B & truthfulqa\_mc & R0 Ordinary reset & 500 & 0.107 & 0.664 & 0.666 & 0.106 & 0.106 &  & False & ordinary\_reset\_baseline \\
+Qwen2.5-7B & truthfulqa\_mc & R1 User retraction & 500 & 0.102 & 0.662 & 0.664 & 0.104 & 0.104 &  & False & no\_material\_change \\
+Qwen2.5-7B & truthfulqa\_mc & R2 System reset & 500 & 0.108 & 0.657 & 0.654 & 0.108 & 0.108 &  & False & no\_material\_change \\
+Qwen2.5-7B & truthfulqa\_mc & R3 Fresh context deletion & 500 & 0.096 & 0.707 & 0.700 & 0.102 & 0.102 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-7B & truthfulqa\_mc & R3 Context truncation & 500 & 0.089 & 0.748 & 0.746 & 0.088 & 0.088 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-7B & truthfulqa\_mc & R4 Neutral summary & 500 & 0.100 & 0.731 & 0.730 & 0.098 & 0.098 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-7B & truthfulqa\_mc & R5 Factual-state reconstruction & 500 & 0.084 & 0.769 & 0.768 & 0.084 & 0.084 &  & False & restored\_clean\_context\_like \\
+Qwen2.5-7B & truthfulqa\_mc & R6 Self-verification label & 500 & 0.110 & 0.657 & 0.658 & 0.112 & 0.112 &  & False & no\_material\_change \\
+Qwen2.5-7B & truthfulqa\_mc & R6 Evidence comparison label & 500 & 0.108 & 0.655 & 0.652 & 0.110 & 0.110 &  & False & no\_material\_change \\
+Qwen2.5-7B & truthfulqa\_mc & R2 Source skepticism reset & 500 & 0.106 & 0.664 & 0.664 & 0.108 & 0.108 &  & False & no\_material\_change \\
+\bottomrule
+\end{tabular}
+\end{table}

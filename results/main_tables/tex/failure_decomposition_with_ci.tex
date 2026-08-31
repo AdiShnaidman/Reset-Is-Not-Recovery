@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Failure decomposition with paired bootstrap 95\% CIs.}
+\label{tab:failure-decomposition-ci}
+\begin{tabular}{llllllll}
+\toprule
+model & dataset & condition\_or\_operation & contamination\_given\_clean\_correct & context\_correction & history\_contamination & stable\_correct & task\_failure \\
+\midrule
+Mistral-7B & MMLU-Pro & ordinary\_reset & 0.693 [0.620, 0.762] & 0.026 [0.014, 0.042] & 0.262 [0.224, 0.302] & 0.064 [0.044, 0.086] & 0.648 [0.604, 0.690] \\
+Mistral-7B & TruthfulQA-MC & ordinary\_reset & 0.280 [0.231, 0.330] & 0.042 [0.026, 0.060] & 0.260 [0.222, 0.300] & 0.390 [0.346, 0.434] & 0.308 [0.268, 0.350] \\
+Qwen2.5-1.5B & MMLU-Pro & ordinary\_reset & 0.730 [0.656, 0.803] & 0.028 [0.014, 0.044] & 0.216 [0.182, 0.252] & 0.058 [0.038, 0.078] & 0.698 [0.658, 0.738] \\
+Qwen2.5-1.5B & TruthfulQA-MC & ordinary\_reset & 0.626 [0.566, 0.686] & 0.012 [0.004, 0.022] & 0.416 [0.372, 0.460] & 0.076 [0.054, 0.100] & 0.496 [0.452, 0.540] \\
+Qwen2.5-14B & MMLU-Pro & ordinary\_reset & 0.215 [0.164, 0.270] & 0.044 [0.028, 0.062] & 0.140 [0.110, 0.172] & 0.316 [0.276, 0.358] & 0.500 [0.458, 0.544] \\
+Qwen2.5-14B & TruthfulQA-MC & ordinary\_reset & 0.045 [0.026, 0.066] & 0.054 [0.036, 0.074] & 0.078 [0.056, 0.102] & 0.684 [0.644, 0.724] & 0.184 [0.152, 0.218] \\
+Qwen2.5-7B & MMLU-Pro & ordinary\_reset & 0.241 [0.185, 0.298] & 0.046 [0.028, 0.066] & 0.164 [0.132, 0.196] & 0.260 [0.222, 0.300] & 0.530 [0.486, 0.574] \\
+Qwen2.5-7B & TruthfulQA-MC & ordinary\_reset & 0.046 [0.025, 0.069] & 0.068 [0.046, 0.090] & 0.102 [0.076, 0.128] & 0.598 [0.554, 0.640] & 0.232 [0.196, 0.270] \\
+\bottomrule
+\end{tabular}
+\end{table}

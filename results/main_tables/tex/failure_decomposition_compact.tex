@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Failure decomposition point estimates.}
+\label{tab:failure-decomposition-compact}
+\begin{tabular}{llllllll}
+\toprule
+model & dataset & condition\_or\_operation & contamination\_given\_clean\_correct & context\_correction & history\_contamination & stable\_correct & task\_failure \\
+\midrule
+Mistral-7B & MMLU-Pro & ordinary\_reset & 0.693 & 0.026 & 0.262 & 0.064 & 0.648 \\
+Mistral-7B & TruthfulQA-MC & ordinary\_reset & 0.280 & 0.042 & 0.260 & 0.390 & 0.308 \\
+Qwen2.5-1.5B & MMLU-Pro & ordinary\_reset & 0.730 & 0.028 & 0.216 & 0.058 & 0.698 \\
+Qwen2.5-1.5B & TruthfulQA-MC & ordinary\_reset & 0.626 & 0.012 & 0.416 & 0.076 & 0.496 \\
+Qwen2.5-14B & MMLU-Pro & ordinary\_reset & 0.215 & 0.044 & 0.140 & 0.316 & 0.500 \\
+Qwen2.5-14B & TruthfulQA-MC & ordinary\_reset & 0.045 & 0.054 & 0.078 & 0.684 & 0.184 \\
+Qwen2.5-7B & MMLU-Pro & ordinary\_reset & 0.241 & 0.046 & 0.164 & 0.260 & 0.530 \\
+Qwen2.5-7B & TruthfulQA-MC & ordinary\_reset & 0.046 & 0.068 & 0.102 & 0.598 & 0.232 \\
+\bottomrule
+\end{tabular}
+\end{table}

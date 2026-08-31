@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{llrrr}
+\hline
+Dataset & Condition & Rest. & Wrong red. & $p_c$ gain \\
+\hline
+TQA & Strong reset & 0.000 & 0.000 & 0.000 \\
+TQA & Current refresh & -0.013 & -0.008 & -0.027 \\
+TQA & Relabel, no shuffle & -0.021 & -0.012 & -0.032 \\
+TQA & Relabel, shuffle & 0.377 & 0.228 & 0.122 \\
+\hline
+MMLU & Strong reset & 0.000 & 0.000 & 0.000 \\
+MMLU & Current refresh & 0.055 & 0.038 & 0.024 \\
+MMLU & Relabel, no shuffle & 0.045 & 0.032 & 0.024 \\
+MMLU & Relabel, shuffle & 0.406 & 0.307 & 0.030 \\
+\hline
+\end{tabular}
+\caption{Non-history-clearing relabeling diagnostic, restoration metrics. The full pressure history remains in context. Rest. is the restoration ratio relative to ordinary reset and the clean probe. Wrong red. is the reduction in advocated-wrong probability relative to ordinary reset.}
+\label{tab:non-history-clearing-recovery-a}
+\end{table}

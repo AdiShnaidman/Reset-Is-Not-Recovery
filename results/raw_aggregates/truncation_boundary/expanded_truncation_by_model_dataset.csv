@@ -1,0 +1,6 @@
+model,dataset,full_history_gap,remove_strong_only_gap,remove_medium_strong_gap,remove_all_pressure_gap,reset_only_gap,fresh_context_gap,best_nonfresh_condition,first_condition_with_clean_context_like_recovery,recovery_pattern
+Qwen2.5-1.5B,TruthfulQA-MC,0.4994935275621127,0.4507073279700859,0.3355727074981038,0.0198307483720294,-0.0116456745533555,0.0,reset_only,reset_only,abrupt_boundary
+Qwen2.5-1.5B,MMLU-Pro,0.6343029031006014,0.5606028764989016,0.397762705818339,0.0034858537337335,0.0003015059272754,0.0,reset_only,remove_all_pressure,abrupt_boundary
+Qwen2.5-14B,MMLU-Pro,0.2721059775065509,0.2113970351342413,0.1171687481177094,-0.0088615260714656,-0.0011508705542574,0.0,reset_only,remove_all_pressure,gradual_recovery
+Mistral-7B-v0.3,TruthfulQA-MC,0.2470265087505791,0.206163687649618,0.0934738841487068,0.0062460699955691,0.0018090396519283,0.0,reset_only,reset_only,gradual_recovery
+Mistral-7B-v0.3,MMLU-Pro,0.6592114301852703,0.6088075877830624,0.4436081301458591,-0.0140093803798889,-0.0033986365591167,0.0,reset_only,remove_all_pressure,abrupt_boundary

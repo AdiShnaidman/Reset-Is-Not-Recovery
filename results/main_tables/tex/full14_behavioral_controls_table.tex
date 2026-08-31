@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{llrrrr}
+\hline
+Model & Dataset & Pressure gap & Neutral gap & Correct reset $p_c$ & Correct reset $p_w$ \\
+\hline
+Gemma2-2B & MMLU-Pro & 0.734 & -0.003 & 0.893 & 0.019 \\
+Gemma2-2B & TruthfulQA-MC & 0.481 & 0.006 & 0.899 & 0.034 \\
+Gemma2-9B & MMLU-Pro & 0.274 & -0.004 & 0.720 & 0.039 \\
+Gemma2-9B & TruthfulQA-MC & 0.009 & -0.021 & 0.809 & 0.069 \\
+Llama3.1-8B & MMLU-Pro & 0.182 & 0.001 & 0.444 & 0.070 \\
+Llama3.1-8B & TruthfulQA-MC & -0.058 & -0.039 & 0.540 & 0.140 \\
+Mistral-7B-v0.3 & MMLU-Pro & 0.659 & -0.016 & 0.892 & 0.010 \\
+Mistral-7B-v0.3 & TruthfulQA-MC & 0.247 & -0.011 & 0.840 & 0.042 \\
+Qwen2.5-14B & MMLU-Pro & 0.272 & -0.009 & 0.801 & 0.029 \\
+Qwen2.5-14B & TruthfulQA-MC & 0.037 & -0.001 & 0.821 & 0.050 \\
+Qwen2.5-1.5B & MMLU-Pro & 0.634 & -0.001 & 0.820 & 0.019 \\
+Qwen2.5-1.5B & TruthfulQA-MC & 0.499 & 0.016 & 0.630 & 0.119 \\
+Qwen2.5-7B & MMLU-Pro & 0.262 & -0.023 & 0.726 & 0.034 \\
+Qwen2.5-7B & TruthfulQA-MC & 0.011 & 0.001 & 0.738 & 0.063 \\
+\hline
+\end{tabular}
+\caption{Behavioral controls across fourteen model--dataset pairs. Pressure gap is derived from saved ordinary-reset recovery-hierarchy rows; neutral and correct-pressure controls use the pressure-ramp control runner.}
+\label{tab:behavioral-controls-full14}
+\end{table*}

@@ -1,0 +1,3 @@
+dataset,semantic_following,old_letter_following,chance_old_letter,new_wrong_following
+TQA,0.548,0.228,0.224,0.548
+MMLU,0.598,0.118,0.111,0.598

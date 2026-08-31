@@ -1,0 +1,6 @@
+condition,label,mean_gap,ci_low,ci_high,n_items,bootstrap_samples,bootstrap_seed,bootstrap_unit
+full_history_reset,Full pressure history,0.46242806942102294,0.30755170001527454,0.6173044388267712,5,10000,12345,model_dataset_aggregate_row
+remove_strong_only,Drop strongest turn,0.40753570300718184,0.2571657547075609,0.5579056513068028,5,10000,12345,model_dataset_aggregate_row
+remove_medium_strong,Drop medium+strong turns,0.2775172351457436,0.15137159440618725,0.40366287588530003,5,10000,12345,model_dataset_aggregate_row
+remove_all_pressure,Drop all pressure turns,0.0013383531299954996,-0.008461450189736854,0.01137535780803834,5,10000,12345,model_dataset_aggregate_row
+reset_only,Reset only,-0.00281692721750518,-0.007447752953716259,0.0006140441208300001,5,10000,12345,model_dataset_aggregate_row

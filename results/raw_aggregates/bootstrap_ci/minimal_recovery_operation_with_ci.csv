@@ -1,0 +1,25 @@
+table_name,model,model_key,dataset,dataset_key,condition_or_operation,metric,estimate,ci_low,ci_high,n_items,bootstrap_samples,seed,informative,notes
+minimal_recovery_operation,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,accuracy,0.326,0.284,0.368,500,10000,12345,True,
+minimal_recovery_operation,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+minimal_recovery_operation,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,hysteresis_gap,0.0,,,500,10000,12345,True,Point estimate only; CI available in recovery_operations_with_ci.csv
+minimal_recovery_operation,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,accuracy,0.65,0.608,0.692,500,10000,12345,True,
+minimal_recovery_operation,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+minimal_recovery_operation,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,hysteresis_gap,0.0,,,500,10000,12345,True,Point estimate only; CI available in recovery_operations_with_ci.csv
+minimal_recovery_operation,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,accuracy,0.274,0.234,0.312,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,hysteresis_gap,0.0,,,500,10000,12345,True,Point estimate only; CI available in recovery_operations_with_ci.csv
+minimal_recovery_operation,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,accuracy,0.492,0.448,0.536,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,hysteresis_gap,0.0,,,500,10000,12345,True,Point estimate only; CI available in recovery_operations_with_ci.csv
+minimal_recovery_operation,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,accuracy,0.456,0.414,0.498,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,hysteresis_gap,0.0,,,500,10000,12345,True,Point estimate only; CI available in recovery_operations_with_ci.csv
+minimal_recovery_operation,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,accuracy,0.738,0.698,0.776,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+minimal_recovery_operation,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,hysteresis_gap,0.03669767301939296,,,500,10000,12345,True,Point estimate only; CI available in recovery_operations_with_ci.csv
+minimal_recovery_operation,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,accuracy,0.424,0.382,0.466,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,hysteresis_gap,0.0,,,500,10000,12345,True,Point estimate only; CI available in recovery_operations_with_ci.csv
+minimal_recovery_operation,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,accuracy,0.7,0.66,0.74,500,10000,12345,True,
+minimal_recovery_operation,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+minimal_recovery_operation,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,hysteresis_gap,0.0,,,500,10000,12345,True,Point estimate only; CI available in recovery_operations_with_ci.csv

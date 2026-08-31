@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{llrrr}
+\hline
+Dataset & Condition & Acc. & Wrong follow & $p_w$ \\
+\hline
+TQA & Strong reset & 0.060 & 0.730 & 0.718 \\
+TQA & Current refresh & 0.030 & 0.730 & 0.726 \\
+TQA & Relabel, no shuffle & 0.050 & 0.730 & 0.730 \\
+TQA & Relabel, shuffle & 0.180 & 0.548 & 0.490 \\
+\hline
+MMLU & Strong reset & 0.070 & 0.810 & 0.805 \\
+MMLU & Current refresh & 0.100 & 0.780 & 0.766 \\
+MMLU & Relabel, no shuffle & 0.100 & 0.790 & 0.773 \\
+MMLU & Relabel, shuffle & 0.110 & 0.598 & 0.498 \\
+\hline
+\end{tabular}
+\caption{Non-history-clearing relabeling diagnostic, outcome metrics. Strong reset is the ordinary reset baseline. Current refresh re-presents the current question and options. Relabel, no shuffle re-presents the same answer labels. Relabel, shuffle re-presents the same answer texts with shuffled labels.}
+\label{tab:non-history-clearing-recovery-b}
+\end{table}

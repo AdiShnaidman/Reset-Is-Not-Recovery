@@ -1,0 +1,5 @@
+alpha_grid_step: 0.01
+top_clean_probability_slack: 0.05
+entropy_slack: 0.15
+max_prob_slack: 0.15
+kl_threshold: 0.1

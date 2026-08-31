@@ -1,0 +1,5 @@
+wrong_gap: 0.075
+accuracy_slack: 0.05
+p_correct_slack: 0.075
+entropy_slack: 0.2
+max_prob_slack: 0.2

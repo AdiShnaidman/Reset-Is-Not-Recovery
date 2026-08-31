@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Minimal recovery operation with paired bootstrap 95\% CIs.}
+\label{tab:minimal-recovery-ci}
+\begin{tabular}{llllll}
+\toprule
+model & dataset & condition\_or\_operation & accuracy & hysteresis\_gap & restoration\_ratio \\
+\midrule
+Mistral-7B & MMLU-Pro & R3 Fresh deletion & 0.326 [0.284, 0.368] & 0.000 & 1.000 [1.000, 1.000] \\
+Mistral-7B & TruthfulQA-MC & R3 Fresh deletion & 0.650 [0.608, 0.692] & 0.000 & 1.000 [1.000, 1.000] \\
+Qwen2.5-1.5B & MMLU-Pro & R3 Fresh deletion & 0.274 [0.234, 0.312] & 0.000 & 1.000 [1.000, 1.000] \\
+Qwen2.5-1.5B & TruthfulQA-MC & R3 Fresh deletion & 0.492 [0.448, 0.536] & 0.000 & 1.000 [1.000, 1.000] \\
+Qwen2.5-14B & MMLU-Pro & R3 Fresh deletion & 0.456 [0.414, 0.498] & 0.000 & 1.000 [1.000, 1.000] \\
+Qwen2.5-14B & TruthfulQA-MC & R0 Ordinary reset & 0.738 [0.698, 0.776] & 0.037 & -- \\
+Qwen2.5-7B & MMLU-Pro & R3 Fresh deletion & 0.424 [0.382, 0.466] & 0.000 & 1.000 [1.000, 1.000] \\
+Qwen2.5-7B & TruthfulQA-MC & R3 Fresh deletion & 0.700 [0.660, 0.740] & 0.000 & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

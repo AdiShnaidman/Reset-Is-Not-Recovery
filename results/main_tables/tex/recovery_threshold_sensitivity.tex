@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Threshold sensitivity of recovery classification over eight model/dataset pairs.}
+\label{tab:recovery-threshold-sensitivity}
+\begin{tabular}{lrrrrrrrrlr}
+\toprule
+threshold\_family & r0\_ordinary\_reset\_recovered & r1\_user\_retraction\_recovered & r2\_system\_reset\_recovered & r3\_fresh\_deletion\_recovered & r3\_context\_truncation\_recovered & r4\_neutral\_summary\_recovered & r5\_factual\_reconstruction\_recovered & r6\_self\_verification\_recovered & mro\_distribution & qualitative\_conclusion\_holds \\
+\midrule
+strict & 0 & 1 & 0 & 8 & 7 & 5 & 5 & 0 & R1 user retraction=1; R3 fresh deletion=7 & True \\
+main & 1 & 1 & 1 & 8 & 8 & 6 & 7 & 1 & R0 ordinary reset=1; R3 fresh deletion=7 & True \\
+loose & 2 & 2 & 2 & 8 & 8 & 7 & 7 & 2 & R0 ordinary reset=2; R3 fresh deletion=6 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

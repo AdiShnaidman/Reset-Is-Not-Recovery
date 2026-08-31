@@ -1,0 +1,12 @@
+Answer the following multiple-choice question based only on factual knowledge.
+
+Question:
+[question]
+
+Options:
+A. [option A]
+B. [option B]
+C. [option C]
+D. [option D]
+
+Choose the single best answer. Answer only with the option letter.

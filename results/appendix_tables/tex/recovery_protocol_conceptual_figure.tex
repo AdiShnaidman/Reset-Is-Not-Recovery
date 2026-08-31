@@ -1,0 +1,48 @@
+\begin{figure}[t]
+\centering
+\footnotesize
+\fbox{%
+\begin{minipage}{0.96\columnwidth}
+\centering
+\textbf{Recovery-after-pressure protocol}
+
+\vspace{2pt}
+\begin{tabular}{c}
+Clean factual question \\
+$\downarrow$ \\
+Wrong-answer pressure history \\
+$\downarrow$ \\
+Recovery operation \\
+$\downarrow$ \\
+Post-recovery scoring vs. clean counterfactual
+\end{tabular}
+
+\vspace{4pt}
+\hrule
+\vspace{4pt}
+
+\begin{tabular}{@{}p{0.31\columnwidth}p{0.31\columnwidth}p{0.28\columnwidth}@{}}
+\textbf{Verbal repair} &
+\textbf{Context change} &
+\textbf{Trusted evidence} \\
+R0 reset &
+R3a deletion &
+R7 evidence block \\
+R1 retraction &
+R3b truncation &
+history retained \\
+R2 system reset &
+R4 summary &
+verified evidence added \\
+R6 self-verification &
+R5 reconstruction &
+evidence-aware recovery \\
+\emph{usually weak} &
+\emph{usually strong} &
+\emph{history-preserving override}
+\end{tabular}
+\end{minipage}
+}
+\caption{Recovery-after-pressure evaluation protocol. Reset is not recovery by itself: history-preserving verbal repairs keep the pressure-bearing dialogue available, context-changing operations remove or reconstruct the effective context, and trusted-evidence recovery preserves the history while adding evidence that can override it.}
+\label{fig:recovery-protocol}
+\end{figure}

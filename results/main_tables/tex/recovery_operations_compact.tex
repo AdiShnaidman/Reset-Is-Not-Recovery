@@ -1,0 +1,74 @@
+\begin{table}
+\caption{Recovery operations point estimates.}
+\label{tab:recovery-operations-compact}
+\begin{tabular}{llllllll}
+\toprule
+model & dataset & condition\_or\_operation & accuracy & hysteresis\_gap & p\_correct & p\_wrong & restoration\_ratio \\
+\midrule
+Mistral-7B & MMLU-Pro & R0 Ordinary reset & 0.090 & 0.659 & 0.091 & 0.750 & 0.000 \\
+Mistral-7B & MMLU-Pro & R1 User retraction & 0.100 & 0.624 & 0.103 & 0.714 & 0.054 \\
+Mistral-7B & MMLU-Pro & R2 System reset & 0.090 & 0.648 & 0.093 & 0.739 & 0.017 \\
+Mistral-7B & MMLU-Pro & R3 Context truncation & 0.308 & -0.003 & 0.310 & 0.088 & 1.004 \\
+Mistral-7B & MMLU-Pro & R3 Fresh deletion & 0.326 & 0.000 & 0.318 & 0.091 & 1.000 \\
+Mistral-7B & MMLU-Pro & R4 Neutral summary & 0.302 & 0.005 & 0.300 & 0.095 & 0.993 \\
+Mistral-7B & MMLU-Pro & R5 Factual reconstruction & 0.306 & 0.001 & 0.299 & 0.091 & 0.999 \\
+Mistral-7B & MMLU-Pro & R6 Self-verification & 0.084 & 0.675 & 0.086 & 0.766 & -0.024 \\
+Mistral-7B & TruthfulQA-MC & R0 Ordinary reset & 0.432 & 0.247 & 0.439 & 0.352 & 0.000 \\
+Mistral-7B & TruthfulQA-MC & R1 User retraction & 0.452 & 0.217 & 0.459 & 0.322 & 0.120 \\
+Mistral-7B & TruthfulQA-MC & R2 System reset & 0.452 & 0.233 & 0.458 & 0.338 & 0.058 \\
+Mistral-7B & TruthfulQA-MC & R3 Context truncation & 0.654 & 0.001 & 0.659 & 0.106 & 0.996 \\
+Mistral-7B & TruthfulQA-MC & R3 Fresh deletion & 0.650 & 0.000 & 0.650 & 0.105 & 1.000 \\
+Mistral-7B & TruthfulQA-MC & R4 Neutral summary & 0.662 & 0.000 & 0.663 & 0.105 & 0.999 \\
+Mistral-7B & TruthfulQA-MC & R5 Factual reconstruction & 0.628 & 0.006 & 0.632 & 0.111 & 0.977 \\
+Mistral-7B & TruthfulQA-MC & R6 Self-verification & 0.422 & 0.268 & 0.422 & 0.373 & -0.084 \\
+Qwen2.5-1.5B & MMLU-Pro & R0 Ordinary reset & 0.086 & 0.634 & 0.091 & 0.726 & 0.000 \\
+Qwen2.5-1.5B & MMLU-Pro & R1 User retraction & 0.116 & 0.542 & 0.113 & 0.633 & 0.146 \\
+Qwen2.5-1.5B & MMLU-Pro & R2 System reset & 0.076 & 0.665 & 0.080 & 0.757 & -0.049 \\
+Qwen2.5-1.5B & MMLU-Pro & R3 Context truncation & 0.288 & -0.000 & 0.271 & 0.091 & 1.000 \\
+Qwen2.5-1.5B & MMLU-Pro & R3 Fresh deletion & 0.274 & 0.000 & 0.274 & 0.091 & 1.000 \\
+Qwen2.5-1.5B & MMLU-Pro & R4 Neutral summary & 0.278 & -0.002 & 0.267 & 0.089 & 1.003 \\
+Qwen2.5-1.5B & MMLU-Pro & R5 Factual reconstruction & 0.266 & 0.006 & 0.267 & 0.097 & 0.991 \\
+Qwen2.5-1.5B & MMLU-Pro & R6 Self-verification & 0.078 & 0.669 & 0.081 & 0.760 & -0.055 \\
+Qwen2.5-1.5B & TruthfulQA-MC & R0 Ordinary reset & 0.088 & 0.499 & 0.090 & 0.665 & 0.000 \\
+Qwen2.5-1.5B & TruthfulQA-MC & R1 User retraction & 0.088 & 0.427 & 0.097 & 0.592 & 0.145 \\
+Qwen2.5-1.5B & TruthfulQA-MC & R2 System reset & 0.060 & 0.573 & 0.058 & 0.739 & -0.148 \\
+Qwen2.5-1.5B & TruthfulQA-MC & R3 Context truncation & 0.542 & -0.018 & 0.543 & 0.147 & 1.036 \\
+Qwen2.5-1.5B & TruthfulQA-MC & R3 Fresh deletion & 0.492 & 0.000 & 0.490 & 0.166 & 1.000 \\
+Qwen2.5-1.5B & TruthfulQA-MC & R4 Neutral summary & 0.432 & 0.020 & 0.431 & 0.186 & 0.960 \\
+Qwen2.5-1.5B & TruthfulQA-MC & R5 Factual reconstruction & 0.388 & 0.024 & 0.389 & 0.190 & 0.951 \\
+Qwen2.5-1.5B & TruthfulQA-MC & R6 Self-verification & 0.058 & 0.566 & 0.061 & 0.732 & -0.133 \\
+Qwen2.5-14B & MMLU-Pro & R0 Ordinary reset & 0.360 & 0.272 & 0.359 & 0.356 & 0.000 \\
+Qwen2.5-14B & MMLU-Pro & R1 User retraction & 0.392 & 0.155 & 0.397 & 0.240 & 0.429 \\
+Qwen2.5-14B & MMLU-Pro & R2 System reset & 0.362 & 0.249 & 0.360 & 0.333 & 0.086 \\
+Qwen2.5-14B & MMLU-Pro & R3 Context truncation & 0.458 & -0.002 & 0.459 & 0.082 & 1.007 \\
+Qwen2.5-14B & MMLU-Pro & R3 Fresh deletion & 0.456 & 0.000 & 0.458 & 0.084 & 1.000 \\
+Qwen2.5-14B & MMLU-Pro & R4 Neutral summary & 0.458 & -0.000 & 0.462 & 0.084 & 1.002 \\
+Qwen2.5-14B & MMLU-Pro & R5 Factual reconstruction & 0.468 & -0.003 & 0.458 & 0.081 & 1.012 \\
+Qwen2.5-14B & MMLU-Pro & R6 Self-verification & 0.352 & 0.259 & 0.351 & 0.343 & 0.047 \\
+Qwen2.5-14B & TruthfulQA-MC & R0 Ordinary reset & 0.738 & 0.037 & 0.737 & 0.113 & -- \\
+Qwen2.5-14B & TruthfulQA-MC & R1 User retraction & 0.754 & 0.004 & 0.753 & 0.080 & -- \\
+Qwen2.5-14B & TruthfulQA-MC & R2 System reset & 0.732 & 0.031 & 0.733 & 0.107 & -- \\
+Qwen2.5-14B & TruthfulQA-MC & R3 Context truncation & 0.790 & -0.006 & 0.787 & 0.070 & -- \\
+Qwen2.5-14B & TruthfulQA-MC & R3 Fresh deletion & 0.762 & 0.000 & 0.764 & 0.076 & -- \\
+Qwen2.5-14B & TruthfulQA-MC & R4 Neutral summary & 0.738 & -0.001 & 0.736 & 0.075 & -- \\
+Qwen2.5-14B & TruthfulQA-MC & R5 Factual reconstruction & 0.822 & -0.017 & 0.818 & 0.060 & -- \\
+Qwen2.5-14B & TruthfulQA-MC & R6 Self-verification & 0.738 & 0.027 & 0.741 & 0.103 & -- \\
+Qwen2.5-7B & MMLU-Pro & R0 Ordinary reset & 0.306 & 0.262 & 0.307 & 0.343 & 0.000 \\
+Qwen2.5-7B & MMLU-Pro & R1 User retraction & 0.310 & 0.224 & 0.312 & 0.305 & 0.144 \\
+Qwen2.5-7B & MMLU-Pro & R2 System reset & 0.300 & 0.265 & 0.302 & 0.346 & -0.013 \\
+Qwen2.5-7B & MMLU-Pro & R3 Context truncation & 0.432 & 0.001 & 0.423 & 0.082 & 0.997 \\
+Qwen2.5-7B & MMLU-Pro & R3 Fresh deletion & 0.424 & 0.000 & 0.426 & 0.081 & 1.000 \\
+Qwen2.5-7B & MMLU-Pro & R4 Neutral summary & 0.424 & 0.005 & 0.422 & 0.086 & 0.979 \\
+Qwen2.5-7B & MMLU-Pro & R5 Factual reconstruction & 0.418 & -0.005 & 0.415 & 0.076 & 1.018 \\
+Qwen2.5-7B & MMLU-Pro & R6 Self-verification & 0.306 & 0.263 & 0.306 & 0.343 & -0.002 \\
+Qwen2.5-7B & TruthfulQA-MC & R0 Ordinary reset & 0.666 & 0.011 & 0.664 & 0.107 & -- \\
+Qwen2.5-7B & TruthfulQA-MC & R1 User retraction & 0.664 & 0.006 & 0.662 & 0.102 & -- \\
+Qwen2.5-7B & TruthfulQA-MC & R2 System reset & 0.654 & 0.012 & 0.657 & 0.108 & -- \\
+Qwen2.5-7B & TruthfulQA-MC & R3 Context truncation & 0.746 & -0.007 & 0.748 & 0.089 & -- \\
+Qwen2.5-7B & TruthfulQA-MC & R3 Fresh deletion & 0.700 & 0.000 & 0.707 & 0.096 & -- \\
+Qwen2.5-7B & TruthfulQA-MC & R4 Neutral summary & 0.730 & 0.004 & 0.731 & 0.100 & -- \\
+Qwen2.5-7B & TruthfulQA-MC & R5 Factual reconstruction & 0.768 & -0.012 & 0.769 & 0.084 & -- \\
+Qwen2.5-7B & TruthfulQA-MC & R6 Self-verification & 0.658 & 0.014 & 0.657 & 0.110 & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

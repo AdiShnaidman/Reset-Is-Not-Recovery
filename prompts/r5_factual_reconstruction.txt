@@ -1,0 +1,12 @@
+Current question:
+[question]
+
+Answer options:
+A. [option A]
+B. [option B]
+C. [option C]
+D. [option D]
+
+Verified factual evidence supplied in dialogue: none
+Prior user claims: excluded as unsupported
+Instruction: choose the factually correct option. Answer only with the option letter.

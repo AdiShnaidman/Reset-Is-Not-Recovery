@@ -1,0 +1,66 @@
+\begin{table}
+\caption{Figure-ready pressure-recovery curve data with paired bootstrap 95\% CIs.}
+\label{tab:pressure-recovery-curve-data}
+\begin{tabular}{lllrrrr}
+\toprule
+model & dataset & phase & n & mean\_p\_wrong & p\_wrong\_ci\_low & p\_wrong\_ci\_high \\
+\midrule
+Mistral-7B-v0.3 & mmlu\_pro & clean & 500 & 0.091 & 0.070 & 0.112 \\
+Mistral-7B-v0.3 & mmlu\_pro & weak pressure & 500 & 0.589 & 0.551 & 0.627 \\
+Mistral-7B-v0.3 & mmlu\_pro & medium pressure & 500 & 0.848 & 0.816 & 0.877 \\
+Mistral-7B-v0.3 & mmlu\_pro & strong pressure & 500 & 0.915 & 0.890 & 0.936 \\
+Mistral-7B-v0.3 & mmlu\_pro & medium reset & 500 & 0.780 & 0.746 & 0.815 \\
+Mistral-7B-v0.3 & mmlu\_pro & strong reset & 500 & 0.750 & 0.712 & 0.788 \\
+Mistral-7B-v0.3 & mmlu\_pro & clean probe & 500 & 0.091 & 0.070 & 0.112 \\
+Mistral-7B-v0.3 & truthfulqa\_mc & clean & 500 & 0.105 & 0.079 & 0.133 \\
+Mistral-7B-v0.3 & truthfulqa\_mc & weak pressure & 500 & 0.329 & 0.291 & 0.370 \\
+Mistral-7B-v0.3 & truthfulqa\_mc & medium pressure & 500 & 0.742 & 0.708 & 0.777 \\
+Mistral-7B-v0.3 & truthfulqa\_mc & strong pressure & 500 & 0.826 & 0.795 & 0.857 \\
+Mistral-7B-v0.3 & truthfulqa\_mc & medium reset & 500 & 0.391 & 0.350 & 0.429 \\
+Mistral-7B-v0.3 & truthfulqa\_mc & strong reset & 500 & 0.352 & 0.312 & 0.392 \\
+Mistral-7B-v0.3 & truthfulqa\_mc & clean probe & 500 & 0.105 & 0.079 & 0.133 \\
+Qwen2.5-14B & mmlu\_pro & clean & 500 & 0.084 & 0.063 & 0.108 \\
+Qwen2.5-14B & mmlu\_pro & weak pressure & 500 & 0.284 & 0.248 & 0.321 \\
+Qwen2.5-14B & mmlu\_pro & medium pressure & 500 & 0.825 & 0.794 & 0.857 \\
+Qwen2.5-14B & mmlu\_pro & strong pressure & 500 & 0.957 & 0.939 & 0.972 \\
+Qwen2.5-14B & mmlu\_pro & medium reset & 500 & 0.323 & 0.284 & 0.362 \\
+Qwen2.5-14B & mmlu\_pro & strong reset & 500 & 0.356 & 0.315 & 0.397 \\
+Qwen2.5-14B & mmlu\_pro & clean probe & 500 & 0.084 & 0.063 & 0.108 \\
+Qwen2.5-14B & truthfulqa\_mc & clean & 500 & 0.076 & 0.055 & 0.101 \\
+Qwen2.5-14B & truthfulqa\_mc & weak pressure & 500 & 0.116 & 0.091 & 0.144 \\
+Qwen2.5-14B & truthfulqa\_mc & medium pressure & 500 & 0.647 & 0.607 & 0.686 \\
+Qwen2.5-14B & truthfulqa\_mc & strong pressure & 500 & 0.933 & 0.911 & 0.952 \\
+Qwen2.5-14B & truthfulqa\_mc & medium reset & 500 & 0.113 & 0.088 & 0.141 \\
+Qwen2.5-14B & truthfulqa\_mc & strong reset & 500 & 0.113 & 0.087 & 0.142 \\
+Qwen2.5-14B & truthfulqa\_mc & clean probe & 500 & 0.076 & 0.055 & 0.101 \\
+Qwen2.5-1.5B & mmlu\_pro & clean & 500 & 0.091 & 0.072 & 0.112 \\
+Qwen2.5-1.5B & mmlu\_pro & weak pressure & 500 & 0.680 & 0.646 & 0.714 \\
+Qwen2.5-1.5B & mmlu\_pro & medium pressure & 500 & 0.888 & 0.863 & 0.912 \\
+Qwen2.5-1.5B & mmlu\_pro & strong pressure & 500 & 0.925 & 0.904 & 0.945 \\
+Qwen2.5-1.5B & mmlu\_pro & medium reset & 500 & 0.751 & 0.718 & 0.783 \\
+Qwen2.5-1.5B & mmlu\_pro & strong reset & 500 & 0.726 & 0.691 & 0.758 \\
+Qwen2.5-1.5B & mmlu\_pro & clean probe & 500 & 0.091 & 0.072 & 0.112 \\
+Qwen2.5-1.5B & truthfulqa\_mc & clean & 500 & 0.166 & 0.136 & 0.195 \\
+Qwen2.5-1.5B & truthfulqa\_mc & weak pressure & 500 & 0.767 & 0.733 & 0.800 \\
+Qwen2.5-1.5B & truthfulqa\_mc & medium pressure & 500 & 0.887 & 0.861 & 0.912 \\
+Qwen2.5-1.5B & truthfulqa\_mc & strong pressure & 500 & 0.897 & 0.871 & 0.921 \\
+Qwen2.5-1.5B & truthfulqa\_mc & medium reset & 500 & 0.748 & 0.710 & 0.783 \\
+Qwen2.5-1.5B & truthfulqa\_mc & strong reset & 500 & 0.665 & 0.625 & 0.704 \\
+Qwen2.5-1.5B & truthfulqa\_mc & clean probe & 500 & 0.166 & 0.136 & 0.195 \\
+Qwen2.5-7B & mmlu\_pro & clean & 500 & 0.081 & 0.061 & 0.102 \\
+Qwen2.5-7B & mmlu\_pro & weak pressure & 500 & 0.288 & 0.251 & 0.324 \\
+Qwen2.5-7B & mmlu\_pro & medium pressure & 500 & 0.952 & 0.935 & 0.968 \\
+Qwen2.5-7B & mmlu\_pro & strong pressure & 500 & 0.971 & 0.957 & 0.984 \\
+Qwen2.5-7B & mmlu\_pro & medium reset & 500 & 0.347 & 0.310 & 0.386 \\
+Qwen2.5-7B & mmlu\_pro & strong reset & 500 & 0.343 & 0.303 & 0.384 \\
+Qwen2.5-7B & mmlu\_pro & clean probe & 500 & 0.081 & 0.061 & 0.102 \\
+Qwen2.5-7B & truthfulqa\_mc & clean & 500 & 0.096 & 0.073 & 0.121 \\
+Qwen2.5-7B & truthfulqa\_mc & weak pressure & 500 & 0.141 & 0.114 & 0.172 \\
+Qwen2.5-7B & truthfulqa\_mc & medium pressure & 500 & 0.903 & 0.877 & 0.925 \\
+Qwen2.5-7B & truthfulqa\_mc & strong pressure & 500 & 0.926 & 0.904 & 0.945 \\
+Qwen2.5-7B & truthfulqa\_mc & medium reset & 500 & 0.119 & 0.091 & 0.148 \\
+Qwen2.5-7B & truthfulqa\_mc & strong reset & 500 & 0.107 & 0.080 & 0.135 \\
+Qwen2.5-7B & truthfulqa\_mc & clean probe & 500 & 0.096 & 0.073 & 0.121 \\
+\bottomrule
+\end{tabular}
+\end{table}

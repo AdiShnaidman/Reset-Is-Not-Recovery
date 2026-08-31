@@ -1,0 +1,641 @@
+table_name,model,model_key,dataset,dataset_key,condition_or_operation,metric,estimate,ci_low,ci_high,n_items,bootstrap_samples,seed,informative,notes
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,p_wrong,0.7499567323059989,0.7134042592901457,0.7861251863090418,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,p_correct,0.09084874490613813,0.06716589186336329,0.11613627742011268,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,accuracy,0.09,0.066,0.116,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,hysteresis_gap,0.6592114301852702,0.6184897267223143,0.6983139982266297,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,entropy,0.08053167681475111,0.06203560600849031,0.09995794393719053,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,max_probability,0.9709155581073732,0.9626452143839477,0.9787259736520901,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,restoration_ratio,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,p_wrong,0.7143863228610093,0.6774525616694321,0.7510839449814339,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,p_correct,0.1028369204224212,0.0785541194832078,0.12862660160832803,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,accuracy,0.1,0.074,0.128,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,hysteresis_gap,0.6236410207402805,0.5820781604296152,0.6640859540802604,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,entropy,0.11548855769925018,0.09283078875244337,0.1396556814776938,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,max_probability,0.958862976471208,0.9490044900319901,0.968182114672255,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,restoration_ratio,0.05395903016273941,0.03788128642943896,0.07151651441609355,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,p_wrong,0.7386169058121664,0.7016574064227704,0.7744918158581461,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,p_correct,0.09276194838539134,0.06957644449200161,0.11745358233764422,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,accuracy,0.09,0.066,0.116,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,hysteresis_gap,0.6478716036914376,0.6074026575368104,0.6876796403007558,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,entropy,0.09114805433738539,0.07279872067020808,0.11098693071546803,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,max_probability,0.9668298990848325,0.9578237822980441,0.9750160810174334,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,restoration_ratio,0.01720210842012469,0.007408085889460877,0.027544611230120922,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,p_wrong,0.09074530212072882,0.06940527357831407,0.11350828212818534,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,p_correct,0.31775293407729854,0.2819751287892907,0.35469264055134636,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,accuracy,0.326,0.286,0.368,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,hysteresis_gap,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,entropy,0.40338259323253545,0.3645920122034721,0.4447413638678128,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,max_probability,0.8437698901385688,0.8262601682776107,0.8604426686960757,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,p_wrong,0.08780586547162156,0.0665086982377816,0.10980436993680015,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,p_correct,0.30951541075061856,0.2728990100447676,0.34656765610226226,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,accuracy,0.308,0.268,0.35,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,hysteresis_gap,-0.0029394366491072433,-0.007450175196950997,0.0011625258841841308,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,entropy,0.39047791442135166,0.35206056302925076,0.4290621155930877,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,max_probability,0.847683500465852,0.8304915982441408,0.8641838210508804,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,restoration_ratio,1.0044590195413954,0.9982385645608629,1.0113940191638708,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,p_wrong,0.09535092574687157,0.07551760413435347,0.11658050461924539,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,p_correct,0.3000153492733246,0.26641601901976125,0.3343856182066495,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,accuracy,0.302,0.262,0.342,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,hysteresis_gap,0.004605623626142758,-0.0037665823993649514,0.013064078486550315,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,entropy,0.5798318485921252,0.5318226271473816,0.6278962542105667,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,max_probability,0.7769648908525142,0.7571916280476572,0.7970113953181586,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,restoration_ratio,0.9930134348173418,0.980492986505094,1.005848905436537,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,p_wrong,0.09145612213243691,0.06996146523974754,0.11460084519646029,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,p_correct,0.29945369426935897,0.26360658074324494,0.336102530608472,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,accuracy,0.306,0.266,0.346,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,hysteresis_gap,0.0007108200117080981,-0.009400686296139351,0.010678343622958344,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,entropy,0.3768993444351434,0.33932295158562936,0.41449696941757697,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,max_probability,0.8520762106424872,0.8357188015020423,0.8685373004365186,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,restoration_ratio,0.9989217116403636,0.9838887820100561,1.014573216006381,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,p_wrong,0.7659451326041742,0.7291283916211577,0.8019014365934422,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,p_correct,0.08573451797585571,0.0626320401588956,0.11029889428062153,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,accuracy,0.084,0.06,0.108,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,hysteresis_gap,0.6751998304834453,0.6341971914935977,0.7154770909435547,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,entropy,0.04929703646046345,0.03533990427068322,0.0648914458436558,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,max_probability,0.98313772392197,0.9766843389655485,0.9889278136446681,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,restoration_ratio,-0.024253827476386092,-0.0374716320738763,-0.012131070238103073,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,p_wrong,0.3519581999484691,0.3133752004611976,0.39240355148658995,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,p_correct,0.43857751096053416,0.39628507108433997,0.480082544162267,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,accuracy,0.432,0.388,0.474,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,hysteresis_gap,0.2470265087505791,0.20542797903162432,0.2898946488311651,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,entropy,0.10183698053849995,0.08257055391303494,0.12190203202800315,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,max_probability,0.9619382229935118,0.9531458341218637,0.9704466956499299,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,restoration_ratio,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,p_wrong,0.3223259190820445,0.2836549375366447,0.36083788997999866,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,p_correct,0.45866523857680774,0.417848417918792,0.501131758294795,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,accuracy,0.452,0.41,0.496,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,hysteresis_gap,0.21739422788415458,0.17690285621378585,0.2592559834701098,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,entropy,0.12985710145262772,0.10760933267808583,0.15243126495710826,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,max_probability,0.9496084893501107,0.9394921515158875,0.9595702522048116,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,restoration_ratio,0.11995587443752487,0.08177314771958145,0.16429438654309267,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,p_wrong,0.3376086010812253,0.2984302476643371,0.3763390093970287,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,p_correct,0.45758350580959223,0.41683111961574143,0.4999514331788806,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,accuracy,0.452,0.41,0.496,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,hysteresis_gap,0.2326769098833354,0.19186106475329975,0.27365026617633836,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,entropy,0.12279856315641723,0.10117784829882916,0.14503063779739336,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,max_probability,0.9518751985086349,0.9416080533966559,0.9613700395649203,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,restoration_ratio,0.0580893076610352,0.02634229340308545,0.09116904709470433,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,p_wrong,0.10493169119788996,0.0800489847654406,0.13126968142485,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,p_correct,0.6497950458048971,0.6085129019625474,0.6907330049547987,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,accuracy,0.65,0.608,0.692,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,hysteresis_gap,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,entropy,0.07876597178247637,0.061734222012800107,0.09757348992767945,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,max_probability,0.9675391874868995,0.9584644108708924,0.9755899022666576,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,p_wrong,0.10587523927789837,0.08057607758696596,0.13247768036173774,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,p_correct,0.6587646791026958,0.6180574666057183,0.6988593839213221,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,accuracy,0.654,0.612,0.696,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,hysteresis_gap,0.0009435480800084233,-0.007372515440303874,0.009953869935047223,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,entropy,0.08674861058869007,0.06845106858011506,0.10624412986312419,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,max_probability,0.9649075707302156,0.9558939387637226,0.973310608791176,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,restoration_ratio,0.9961803772203205,0.9595935854852814,1.0304568731007353,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,p_wrong,0.10517075038949164,0.08039450694906448,0.1305762699218085,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,p_correct,0.6629225929253886,0.6227620444157651,0.7018638543979082,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,accuracy,0.662,0.62,0.702,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,hysteresis_gap,0.00023905919160170097,-0.010206016165802006,0.011136413881087532,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,entropy,0.11725268451755347,0.09647027475786063,0.1384854516594394,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,max_probability,0.954020528840271,0.9440093134302773,0.9636252399148193,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,restoration_ratio,0.9990322528832603,0.9560260351588461,1.0441502780543197,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,p_wrong,0.1106161967067543,0.08529144920931386,0.13728643846329017,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,p_correct,0.6322884909136153,0.5907710354456139,0.6741937757143234,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,accuracy,0.628,0.584,0.672,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,hysteresis_gap,0.005684505508864337,-0.004544468865002367,0.01636029313520092,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,entropy,0.07869585293483419,0.06187907438628992,0.09632937071947895,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,max_probability,0.9688338514781628,0.9605455124560273,0.976606006733575,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,restoration_ratio,0.9769882773406966,0.9332526034862558,1.019322218986514,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,p_wrong,0.37281946547040146,0.3317542582025611,0.4143300971919616,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,p_correct,0.4223544681782483,0.3799663687777707,0.46504345050009416,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,accuracy,0.422,0.378,0.466,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,hysteresis_gap,0.2678877742725115,0.22454281376536833,0.3106538601374157,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,entropy,0.06382373557860375,0.05014817346602649,0.07861648965593988,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,max_probability,0.9765723930341376,0.9691160536957593,0.9833463879772736,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,restoration_ratio,-0.08444950150267401,-0.1330680727180156,-0.044227974152640424,500,10000,12345,True,
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Mistral-7B,mistral7b_v03,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,p_wrong,0.7255437898838972,0.689062660934782,0.7606272133235619,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,p_correct,0.09121966906346489,0.06799036863006287,0.11567388953341573,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,accuracy,0.086,0.062,0.112,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,hysteresis_gap,0.6343029031006013,0.5966808413204792,0.671770904836536,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,entropy,0.19013488936780873,0.16235777575677557,0.21995206187133695,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,max_probability,0.9431557885617787,0.9320289623250713,0.9534708696810505,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,restoration_ratio,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,p_wrong,0.6331113193226292,0.5955768271744966,0.6707189387153958,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,p_correct,0.11317560236200953,0.08871645529178095,0.1380123817365348,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,accuracy,0.116,0.088,0.144,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,hysteresis_gap,0.5418704325393332,0.5029188303004554,0.5805243899408622,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,entropy,0.3499545809522487,0.3110737569655969,0.39148944493979343,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,max_probability,0.8863411848227727,0.8699986154606754,0.9017914117182011,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,restoration_ratio,0.14572291898624354,0.11934476572707726,0.17327869873016333,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,p_wrong,0.7566388378631375,0.7206182181370634,0.7917358548015184,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,p_correct,0.0803756554781641,0.05777188183215275,0.10467721669385949,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,accuracy,0.076,0.054,0.1,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,hysteresis_gap,0.6653979510798415,0.6277581998538373,0.7026282874889482,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,entropy,0.1067348996138961,0.08643611106699257,0.12853641433486765,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,max_probability,0.9704885900683692,0.9625241727753091,0.9778242526011032,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,restoration_ratio,-0.049022395810016516,-0.07004024721940721,-0.029904653675433896,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,p_wrong,0.09124088678329587,0.07176605737128378,0.11139594069578891,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,p_correct,0.27351936797149473,0.24065457887426317,0.3074650680238076,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,accuracy,0.274,0.236,0.314,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,hysteresis_gap,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,entropy,0.6463876681116963,0.5993880533353682,0.6954944324761346,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,max_probability,0.7677177392674661,0.747952701657553,0.7869056394794032,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,p_wrong,0.09106594570546454,0.0726254472297157,0.11151967584087247,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,p_correct,0.2711807894377118,0.23735503676502148,0.3059926068709538,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,accuracy,0.288,0.248,0.328,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,hysteresis_gap,-0.00017494107783133116,-0.0064205205366812314,0.006475537595478088,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,entropy,0.6504249203157123,0.601630065745022,0.6995182006826776,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,max_probability,0.7684884688111641,0.7487574495406369,0.7882271197181996,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,restoration_ratio,1.0002758005315382,0.9898898173201346,1.010281715173703,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,p_wrong,0.08937283625935255,0.07096222164226507,0.10962134856980418,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,p_correct,0.26727756674092523,0.2338751161022032,0.30066071367308717,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,accuracy,0.278,0.238,0.316,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,hysteresis_gap,-0.001868050523943311,-0.009072721079769214,0.005457307513456499,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,entropy,0.6349446185085018,0.5883620428809563,0.6822514688979885,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,max_probability,0.774832769943585,0.756101299520916,0.7937253314019658,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,restoration_ratio,1.002945044890717,0.9914854608024395,1.014630645955929,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,p_wrong,0.09700003869213057,0.07650964129940674,0.11845810276589427,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,p_correct,0.26668038964491103,0.23381466576659196,0.30085355724566626,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,accuracy,0.266,0.228,0.304,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,hysteresis_gap,0.005759151908834691,-0.0022871643479140335,0.014391892791607073,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,entropy,0.5700518835104966,0.5262807919402877,0.6150217800245972,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,max_probability,0.7919086308366261,0.7731451964416998,0.8101540495978216,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,restoration_ratio,0.9909205020492847,0.9772733989494397,1.0036286060723327,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,p_wrong,0.7604504928882215,0.7239918942450019,0.7952547166516243,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,p_correct,0.08107696373890895,0.059374634053030846,0.1050935009928515,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,accuracy,0.078,0.056,0.102,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,hysteresis_gap,0.6692096061049257,0.6312261040598826,0.705401058081863,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,entropy,0.10360675844150209,0.08540478258778438,0.12299374851978366,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,max_probability,0.9711940164268654,0.9637856517412585,0.977901099433666,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,restoration_ratio,-0.05503159899425535,-0.0811158137917703,-0.031926268625678746,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,p_wrong,0.665038211760447,0.6256831066508276,0.7035349772226178,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,p_correct,0.09048553739922005,0.06790189097429955,0.1144246924603374,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,accuracy,0.088,0.064,0.114,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,hysteresis_gap,0.49949352756211274,0.4556082793210386,0.5433302921612713,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,entropy,0.12468974123629827,0.10586204175451558,0.1441870061923036,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,max_probability,0.9570821777077655,0.948292901638887,0.9654475180912375,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,restoration_ratio,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,p_wrong,0.5924847071170134,0.5520677769224624,0.6320887454005787,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,p_correct,0.09656624434908054,0.07406713890043898,0.12020883380773985,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,accuracy,0.088,0.064,0.114,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,hysteresis_gap,0.42694002291867916,0.38356298289568724,0.4700265595993623,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,entropy,0.1968299701234928,0.1721455953232773,0.222285355993301,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,max_probability,0.928239407345835,0.9167042446769416,0.9394459846022005,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,restoration_ratio,0.1452541437274409,0.10849067630155435,0.18471717731859083,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,p_wrong,0.7388059115548529,0.7011864233318847,0.7764541430190336,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,p_correct,0.05826340867196484,0.03931215280586249,0.07861536839133844,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,accuracy,0.06,0.04,0.082,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,hysteresis_gap,0.5732612273565187,0.5299130908227069,0.6154485920014291,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,entropy,0.05049618241458687,0.03870717526966125,0.06298474460820341,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,max_probability,0.9839459259467912,0.9785963298355025,0.9889265234092652,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,restoration_ratio,-0.14768499634909238,-0.19413645538910715,-0.10775234945937355,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,p_wrong,0.1655446841983342,0.13667313537954598,0.19561776906214606,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,p_correct,0.49042218553868866,0.45039114167163524,0.5311807816423061,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,accuracy,0.492,0.448,0.534,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,hysteresis_gap,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,entropy,0.21983318528944187,0.19196255082365105,0.24864598936151064,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,max_probability,0.9131744433540016,0.8997339759471565,0.926175631961885,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,p_wrong,0.1474169940269736,0.11975401394120541,0.17653191975695445,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,p_correct,0.5425281820266541,0.5022832699681745,0.5835430503896857,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,accuracy,0.542,0.498,0.586,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,hysteresis_gap,-0.018127690171360622,-0.031774689914704946,-0.005155213494596507,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,entropy,0.23287594348901836,0.20353079221663953,0.2625642948142669,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,max_probability,0.9082944557675389,0.8948004749541691,0.9214990210982901,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,restoration_ratio,1.036292142282277,1.0100347744311133,1.0649874942716886,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,p_wrong,0.18576800501004073,0.1553666886172829,0.2184786527509761,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,p_correct,0.43090998937588315,0.3906190961704415,0.47116491640083197,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,accuracy,0.432,0.388,0.476,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,hysteresis_gap,0.020223320811706517,0.009079835374592301,0.0319925136252474,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,entropy,0.24414628292939258,0.2168423345793408,0.2746043289658491,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,max_probability,0.9069206916424902,0.8933842054061765,0.9194235464843538,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,restoration_ratio,0.9595123466155591,0.936086601066802,0.9815641411229468,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,p_wrong,0.18983505220557767,0.15827012457167783,0.22233086628883475,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,p_correct,0.3894439229055246,0.34939324248048675,0.4295179503808749,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,accuracy,0.388,0.346,0.432,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,hysteresis_gap,0.024290368007243487,0.010805979003401722,0.03860568636948644,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,entropy,0.21898159918815702,0.19295767007678669,0.24539577226845025,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,max_probability,0.9161449173917815,0.903983954824521,0.9280350123041106,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,restoration_ratio,0.9513700044807429,0.9235202670872129,0.9780035141889004,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,p_wrong,0.731667634536303,0.6941707938958105,0.7686411745631856,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,p_correct,0.06097926594434307,0.041792814233423556,0.08143924438760482,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,accuracy,0.058,0.038,0.08,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,hysteresis_gap,0.5661229503379688,0.5233581522261231,0.6085889610727823,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,entropy,0.06970109354482162,0.05479326459413194,0.08493593711008665,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,max_probability,0.9753094498607257,0.9681003675329652,0.9821029766148807,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,restoration_ratio,-0.13339396628632105,-0.17809284163265837,-0.09400500984390926,500,10000,12345,True,
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-1.5B,qwen25_15b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,p_wrong,0.3562200871405451,0.3151320724358387,0.3973606879931278,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,p_correct,0.35949037997262107,0.3187974973572524,0.40130804448065527,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,accuracy,0.36,0.318,0.402,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,hysteresis_gap,0.27210597750655097,0.23230651762718968,0.3122067729805961,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,entropy,0.06108477517352711,0.047125036653215796,0.07635621017247254,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,max_probability,0.9755509152198182,0.9681037913705365,0.9821449312571281,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,restoration_ratio,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,p_wrong,0.239604410520809,0.20480091075381615,0.2753579844986729,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,p_correct,0.3971396714007477,0.3564761411466705,0.4381331468876449,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,accuracy,0.392,0.35,0.434,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,hysteresis_gap,0.15549030088681484,0.12039798659856174,0.1908685580665005,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,entropy,0.12292122336909711,0.10102920239233561,0.14589482505958173,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,max_probability,0.950247710954444,0.9396274853379867,0.9602131670693661,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,restoration_ratio,0.4285671255308184,0.3472696527105386,0.5144757494111697,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,p_wrong,0.33284348569938443,0.293587649478947,0.3726802897566573,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,p_correct,0.36008657408041117,0.31903357066764226,0.40118662706706126,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,accuracy,0.362,0.32,0.404,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,hysteresis_gap,0.24872937606539033,0.2099422097528382,0.28835936245638283,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,entropy,0.0751993860884017,0.06018154670167833,0.09093799188952754,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,max_probability,0.9690356881541551,0.9609735912258099,0.9765628128823728,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,restoration_ratio,0.08590991515648665,0.012885445059712947,0.15608646139346086,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,p_wrong,0.08411410963399409,0.06303744447102834,0.1072856264675134,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,p_correct,0.4579861958329038,0.41533239414196915,0.49937440075354955,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,accuracy,0.456,0.412,0.5,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,hysteresis_gap,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,entropy,0.20759489080808452,0.18023572582411815,0.23704276787263265,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,max_probability,0.9175657102947384,0.9040456078873381,0.9300932375313918,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,p_wrong,0.08212298131775098,0.06085875353070711,0.10496138463958664,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,p_correct,0.45912015038038384,0.4186977364329335,0.5005427273091511,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,accuracy,0.458,0.416,0.502,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,hysteresis_gap,-0.00199112831624311,-0.008106223595495161,0.004000244933335519,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,entropy,0.22245716072905974,0.1933838464000101,0.25200940312212383,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,max_probability,0.9091923034737627,0.8955174061153399,0.9226543466433035,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,restoration_ratio,1.0073174736346804,0.9854363538911498,1.0305077420782702,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,p_wrong,0.08369841562659396,0.06244926732032418,0.10646140102840901,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,p_correct,0.4619861665175606,0.4201741422096667,0.5042695161846724,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,accuracy,0.458,0.414,0.502,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,hysteresis_gap,-0.0004156940074001305,-0.00618328560213346,0.0052097087593485965,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,entropy,0.19586748782114619,0.16889031156392192,0.2245523648081507,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,max_probability,0.9235280998179909,0.9108908208663904,0.935528463035333,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,restoration_ratio,1.0015276915678564,0.9808049205791017,1.0228904651820914,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,p_wrong,0.08082455151360494,0.05942419355405958,0.10372169992947024,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,p_correct,0.45848549545722883,0.4166421235295925,0.4992139089824293,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,accuracy,0.468,0.424,0.512,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,hysteresis_gap,-0.00328955812038914,-0.010751502982710163,0.003818160190069795,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,entropy,0.19500170405202147,0.168767540472961,0.2219260076573091,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,max_probability,0.9218818384480724,0.9094556568243036,0.9340797671933423,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,restoration_ratio,1.0120892534244674,0.9860878516940416,1.0408914029134337,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,p_wrong,0.3434126783449159,0.30303181181086947,0.38458275472879694,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,p_correct,0.35129759127488885,0.30987919199045055,0.39294067793301884,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,accuracy,0.352,0.31,0.394,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,hysteresis_gap,0.25929856871092183,0.22035616222953913,0.29948307713132516,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,entropy,0.05225645310252215,0.03884687676790591,0.06683395968644956,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,max_probability,0.9781480034860967,0.9709136129899893,0.9846868686567616,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,restoration_ratio,0.04706772307242259,-0.002519870587689488,0.09610815768343335,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,p_wrong,0.11270330468859475,0.08582465904597848,0.1408392530741584,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,p_correct,0.7371876105987033,0.6974502545636722,0.775363433339437,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,accuracy,0.738,0.698,0.776,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,hysteresis_gap,0.036697673019392966,0.010332418620219936,0.06471935995722052,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,entropy,0.01469712542616789,0.007709967771459742,0.02271537908577449,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,max_probability,0.9943077718682377,0.990601166263466,0.9975242475337492,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,p_wrong,0.07985002246231462,0.057144006981609756,0.10350671172791694,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,p_correct,0.7533501242305451,0.7149029348103466,0.7902958443090146,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,accuracy,0.754,0.716,0.792,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,hysteresis_gap,0.003844390793112832,-0.020118758791527015,0.02758702276177328,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,entropy,0.0271945136540282,0.017358539124891024,0.03863401910621662,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,max_probability,0.9886664288510563,0.9829785031155753,0.9933931858336449,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,p_wrong,0.10718745003892456,0.08214279862044278,0.13458376246338494,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,p_correct,0.732671974182877,0.6937849445324491,0.7705258132989955,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,accuracy,0.732,0.692,0.77,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,hysteresis_gap,0.031181818369722763,0.005274360784012417,0.057851299366623025,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,entropy,0.031035814515622075,0.020492892797877187,0.042610200509498965,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,max_probability,0.9868279011327392,0.9809420859034239,0.9920574620430676,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,p_wrong,0.0760056316692018,0.05420789106688992,0.09941363835225456,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,p_correct,0.7638977684016972,0.7275173498655956,0.7995503269136501,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,accuracy,0.762,0.724,0.8,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,hysteresis_gap,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,entropy,0.054430648861653295,0.0414138462507808,0.0684246529644804,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,max_probability,0.9786185337915968,0.9720391303828702,0.9845363994712739,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,p_wrong,0.06994125393420762,0.049596004483224064,0.09225957086417366,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,p_correct,0.7870877189637346,0.7511338475657298,0.8206743644165354,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,accuracy,0.79,0.754,0.824,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,hysteresis_gap,-0.006064377734994181,-0.013653799058304612,0.0001485636230765074,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,entropy,0.05684197443119552,0.04386057071474934,0.07082877257263706,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,max_probability,0.977459363530168,0.970714817827084,0.983670340687891,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,p_wrong,0.07523369085121435,0.054371733281870734,0.09803025403371363,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,p_correct,0.7360940633294338,0.69782877014619,0.7718678701368711,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,accuracy,0.738,0.698,0.774,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,hysteresis_gap,-0.000771940817987442,-0.010279673863551315,0.008236585488546826,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,entropy,0.05836807876132893,0.04429577369747506,0.07397788305821,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,max_probability,0.9755278851075182,0.9678664916400972,0.98233728099263,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,p_wrong,0.059502780961915504,0.04069550613710225,0.07963218946739933,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,p_correct,0.8178031258638027,0.7853532771244242,0.8496903806194578,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,accuracy,0.822,0.788,0.856,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,hysteresis_gap,-0.0165028507072863,-0.02655199394278494,-0.007918313928033648,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,entropy,0.05842720864454186,0.0440819644841053,0.07390563098814718,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,max_probability,0.9752653706884041,0.9676824737167727,0.9823409291735723,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,p_wrong,0.10275706214919884,0.07761349542407547,0.1293694828530478,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,p_correct,0.7406183367914576,0.7027510081660254,0.7788332639428022,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,accuracy,0.738,0.7,0.776,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,hysteresis_gap,0.02675143047999705,0.0003230240522963791,0.052853481421549435,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,entropy,0.0282326259355341,0.01872480877105819,0.03877142339587536,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,max_probability,0.9886378843445223,0.9836124022328764,0.9930040928396056,500,10000,12345,True,
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-14B,qwen25_14b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,p_wrong,0.3425486287853029,0.30186369627281623,0.38377155373323857,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,p_correct,0.3066716499963202,0.2671431693417447,0.34683082305147095,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,accuracy,0.306,0.266,0.346,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,hysteresis_gap,0.2619431091152095,0.22256411755635463,0.30240694094543336,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,entropy,0.0322998079241567,0.022420860032725726,0.04332318050979106,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,max_probability,0.9880170780244186,0.9826792674691025,0.9925602671478236,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,restoration_ratio,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R0 Ordinary reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,p_wrong,0.3047216018159843,0.26728491851848746,0.34379754965056425,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,p_correct,0.3116010421614126,0.27229229286872664,0.3514990516533903,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,accuracy,0.31,0.27,0.35,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,hysteresis_gap,0.22411608214589088,0.18646275694698125,0.2624665879075951,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,entropy,0.08025980186484881,0.06248380160651564,0.09937142761845782,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,max_probability,0.9696232063164798,0.9613061833952732,0.9773607320605757,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,restoration_ratio,0.1444093226849548,0.09624945739401146,0.19773581176959948,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R1 User retraction,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,p_wrong,0.34595759043642854,0.3052754226027032,0.3872629372010895,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,p_correct,0.3022207675108713,0.2625026799711886,0.3438593356382653,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,accuracy,0.3,0.26,0.342,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,hysteresis_gap,0.26535207076633505,0.22500226899610262,0.30628436374059753,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,entropy,0.02424430648876482,0.01719422023818588,0.03205980029581168,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,max_probability,0.9929335550976155,0.9898692520754444,0.995580938456071,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,restoration_ratio,-0.01301412991027105,-0.03406837428315475,0.004646767298370155,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R2 System reset,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,p_wrong,0.0806055196700934,0.059952434460496966,0.10264054222555814,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,p_correct,0.42572695217928047,0.3859319792674785,0.4656499615367327,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,accuracy,0.424,0.38,0.466,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,hysteresis_gap,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,entropy,0.302892112149607,0.26897889092949334,0.338292836414956,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,max_probability,0.8813293909865849,0.865833024793582,0.8963149942541886,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,restoration_ratio,1.0,1.0,1.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Fresh deletion,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,p_wrong,0.08151693145925953,0.060734121594613964,0.103828050215437,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,p_correct,0.42298356171512896,0.3824444011679057,0.4640583128537323,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,accuracy,0.432,0.388,0.476,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,hysteresis_gap,0.0009114117891661364,-0.0033497603291630655,0.005358509244676345,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,entropy,0.28657270986391903,0.2543131912105561,0.3194447995326565,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,max_probability,0.8884062317079052,0.8740236498062234,0.902544486208959,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,restoration_ratio,0.9965205735235994,0.9792352994296866,1.013017004114073,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R3 Context truncation,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,p_wrong,0.08607913697525782,0.06360098681805051,0.10978324739700236,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,p_correct,0.42210306441832735,0.3822472874432942,0.46209354430481275,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,accuracy,0.424,0.38,0.468,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,hysteresis_gap,0.005473617305164431,-0.0011740973127821253,0.012340916705722928,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,entropy,0.2798260437189643,0.24846027078620217,0.31265752179526385,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,max_probability,0.8938638653468479,0.8796746192997978,0.90742583211156,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,restoration_ratio,0.9791037934777013,0.9518340199538693,1.0043170621669222,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R4 Neutral summary,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,p_wrong,0.07601806508548375,0.05679531878793173,0.09740974229950158,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,p_correct,0.41507343811112346,0.37600186837483224,0.45534959606860326,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,accuracy,0.418,0.376,0.462,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,hysteresis_gap,-0.004587454584609649,-0.011501636553775483,0.0024518804077538108,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,entropy,0.2896461380049294,0.2565129773662105,0.32295684216339127,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,max_probability,0.8836911151131374,0.8684601232368329,0.8986207452639136,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,restoration_ratio,1.0175131714672896,0.9908380649771573,1.045368428694831,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R5 Factual reconstruction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,p_wrong,0.3431229247085033,0.30252993943329753,0.38514305695462364,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,p_correct,0.30642011759336035,0.26654291704748684,0.34842998782568696,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,accuracy,0.306,0.266,0.348,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,hysteresis_gap,0.2625174050384098,0.2226938625208083,0.3038396369667606,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,entropy,0.021181140798572935,0.013888238823539916,0.029414025241872564,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,max_probability,0.992949515568326,0.9893540414693286,0.9959842884344267,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,restoration_ratio,-0.002192445241794152,-0.01730738379669505,0.011195952832651816,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,MMLU-Pro,mmlu_pro,R6 Self-verification,clean_context_like_loose,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,p_wrong,0.10693740521256323,0.08077599644870617,0.13470541514105314,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,p_correct,0.663587758265818,0.6212567250208728,0.7040949806180752,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,accuracy,0.666,0.624,0.7060499999999992,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,hysteresis_gap,0.010962379019139799,-0.015550858180328775,0.03812968623400788,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,entropy,0.017958292746717595,0.011032044141745651,0.026054975484609742,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,max_probability,0.9939040095759486,0.9902894666151747,0.9968038978783874,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R0 Ordinary reset,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,p_wrong,0.10237640967167151,0.0773629268067161,0.12930728745551473,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,p_correct,0.6619717289084898,0.6206876105178557,0.7026001506390269,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,accuracy,0.664,0.622,0.704,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,hysteresis_gap,0.006401383478248085,-0.020281430171735882,0.032352927716270685,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,entropy,0.029773767769834862,0.020335709836323747,0.04088976231136219,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,max_probability,0.9883302393425878,0.983158586781252,0.9927675533878638,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R1 User retraction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,p_wrong,0.10767826943594201,0.08208274277843744,0.13532579958224336,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,p_correct,0.6569209392800981,0.6154664005749476,0.6977068630963386,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,accuracy,0.654,0.612,0.696,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,hysteresis_gap,0.011703243242518572,-0.014794880583951234,0.03897849909579854,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,entropy,0.02654009491136635,0.017553671592731634,0.036297103063272815,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,max_probability,0.9901793730117455,0.985693366809262,0.994220874439641,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R2 System reset,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,p_wrong,0.09597502619342342,0.072574214767127,0.12061626572615505,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,p_correct,0.7065809558702578,0.667973995997224,0.7443665825956713,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,accuracy,0.7,0.66,0.74,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,hysteresis_gap,0.0,0.0,0.0,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,entropy,0.08730036091891251,0.07084222959529861,0.10505139131935479,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,max_probability,0.9640907444778923,0.9553749195318234,0.9720928879306816,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Fresh deletion,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,p_wrong,0.08890965541664793,0.06627637524591001,0.11292641916606902,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,p_correct,0.7482583245881618,0.7112571724901426,0.7845765067162491,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,accuracy,0.746,0.708,0.784,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,hysteresis_gap,-0.007065370776775508,-0.01633555285298461,0.001956096097988668,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,entropy,0.07896002958327568,0.06317875391964002,0.0957185834635718,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,max_probability,0.9688819822705472,0.96100786164248,0.9760803014550372,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R3 Context truncation,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,p_wrong,0.09968450176409209,0.0758511868654692,0.12545172610060795,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,p_correct,0.7309155034288017,0.6938506342112265,0.7683023658726137,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,accuracy,0.73,0.692,0.768,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,hysteresis_gap,0.0037094755706686636,-0.004599135415835888,0.0120781856627803,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,entropy,0.07320020430946823,0.058164799847268946,0.08908951974011921,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,max_probability,0.9691557348856327,0.9609497498033704,0.9767666009266385,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R4 Neutral summary,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,p_wrong,0.08354922534153039,0.06160896251919404,0.10749224726849117,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,p_correct,0.7687470368810302,0.7328452401055963,0.803523274707299,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,accuracy,0.768,0.73,0.804,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,hysteresis_gap,-0.012425800851893045,-0.025289153185620264,-0.00032900408029296855,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,entropy,0.07467310717622659,0.059198607752718575,0.09178938363384187,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,max_probability,0.96993631091303,0.961850780682987,0.9772128933565111,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_strict,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_main,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R5 Factual reconstruction,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,p_wrong,0.1100687313620616,0.08356165874673536,0.13773687150052205,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,p_correct,0.6574516898342936,0.6172036086768171,0.6983499725034755,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,accuracy,0.658,0.618,0.7,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,hysteresis_gap,0.01409370516863817,-0.012569583698010362,0.04152481750422007,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,entropy,0.01726538955055029,0.009405994032472007,0.02618821309333095,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,max_probability,0.9926112857400288,0.9881836652620957,0.996453053400656,500,10000,12345,True,
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,restoration_ratio,,,,500,10000,12345,False,NA when ordinary-reset gap < 0.05
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_strict,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_main,0.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped
+recovery_operations,Qwen2.5-7B,qwen25_7b,TruthfulQA-MC,truthfulqa_mc,R6 Self-verification,clean_context_like_loose,1.0,,,500,10000,12345,True,Deterministic aggregate classification; CI not bootstrapped

@@ -1,0 +1,9 @@
+condition,condition_label,n_pairs,criterion_used,computed_value,expected_paper_value,pass,verification_label
+ordinary_strong_reset,R0 ordinary reset,14,HierarchyRecoveryCriterion clean-context-like aggregate criterion,2,2,True,frozen_from_current_artifact
+explicit_user_retraction,R1 user retraction,14,HierarchyRecoveryCriterion clean-context-like aggregate criterion,2,2,True,frozen_from_current_artifact
+system_level_reset,R2 system reset,14,HierarchyRecoveryCriterion clean-context-like aggregate criterion,2,2,True,frozen_from_current_artifact
+fresh_context_deletion,R3a fresh-context deletion,14,HierarchyRecoveryCriterion clean-context-like aggregate criterion,14,14,True,frozen_from_current_artifact
+context_truncation,R3b context truncation,14,HierarchyRecoveryCriterion clean-context-like aggregate criterion,14,14,True,frozen_from_current_artifact
+neutral_summary_replacement,R4 neutral summary,14,HierarchyRecoveryCriterion clean-context-like aggregate criterion,11,11,True,frozen_from_current_artifact
+factual_state_reconstruction,R5 factual reconstruction,14,HierarchyRecoveryCriterion clean-context-like aggregate criterion,12,12,True,frozen_from_current_artifact
+self_verification_final_label,R6 self-verification,14,HierarchyRecoveryCriterion clean-context-like aggregate criterion,3,3,True,frozen_from_current_artifact

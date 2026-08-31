@@ -1,0 +1,1 @@
+R7 trusted-evidence recovery uses an evidence-grounded context constructed from saved evidence metadata. The scoring prompt keeps the same option-letter-only answer format and excludes unsupported prior user claims. See `results/raw_aggregates/r7_evidence/` and `src/original_research_scripts/r7_evidence_full14_aggregate_v1.py` for the released aggregate implementation.

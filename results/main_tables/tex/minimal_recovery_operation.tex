@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Minimal recovery operation by model and dataset.}
+\label{tab:minimal_recovery_operation}
+\begin{tabular}{llllrlrlll}
+\toprule
+model\_short\_name & dataset & minimal\_recovery\_level & minimal\_recovery\_operation & evaluated\_n & restoration\_ratio & restoration\_ratio\_informative & intervention\_hysteresis\_gap & accuracy & repair\_classification \\
+\midrule
+Mistral-7B-v0.3 & mmlu\_pro & R3 & fresh\_context\_deletion & 500 & 1.000 & True & 0.000 & 0.326 & restored\_clean\_context\_like \\
+Mistral-7B-v0.3 & truthfulqa\_mc & R3 & fresh\_context\_deletion & 500 & 1.000 & True & 0.000 & 0.650 & restored\_clean\_context\_like \\
+Qwen2.5-14B & mmlu\_pro & R3 & fresh\_context\_deletion & 500 & 1.000 & True & 0.000 & 0.456 & restored\_clean\_context\_like \\
+Qwen2.5-14B & truthfulqa\_mc & R0 & ordinary\_strong\_reset & 500 &  & False & 0.037 & 0.738 & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & mmlu\_pro & R3 & fresh\_context\_deletion & 500 & 1.000 & True & 0.000 & 0.274 & restored\_clean\_context\_like \\
+Qwen2.5-1.5B & truthfulqa\_mc & R3 & fresh\_context\_deletion & 500 & 1.000 & True & 0.000 & 0.492 & restored\_clean\_context\_like \\
+Qwen2.5-7B & mmlu\_pro & R3 & fresh\_context\_deletion & 500 & 1.000 & True & 0.000 & 0.424 & restored\_clean\_context\_like \\
+Qwen2.5-7B & truthfulqa\_mc & R3 & fresh\_context\_deletion & 500 &  & False & 0.000 & 0.700 & restored\_clean\_context\_like \\
+\bottomrule
+\end{tabular}
+\end{table}
