@@ -6,7 +6,7 @@ This repository contains the reproducibility artifacts for:
 
 **Author:** Adi Shnaidman
 
-**Accepted at GroundLM, an EMNLP 2026 Workshop (non-archival).**
+**Accepted at GroundLM, an EMNLP 2026 Workshop.**
 
 The repository also provides a reusable evaluation scaffold for measuring
 post-pressure recoverability in factual dialogue.
