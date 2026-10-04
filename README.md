@@ -1,24 +1,62 @@
 # Reset Is Not Recovery
 
+**Evaluating Recoverability from False Conversational Context via Sycophancy Hysteresis**
+
+Adi Shnaidman
+
+Accepted at **GroundLM, an EMNLP 2026 Workshop**.
+
+**Paper:** [arXiv](https://arxiv.org/abs/2609.33672)  
+**Project page:** [Project Page](https://adishnaidman.github.io/projects/reset-is-not-recovery/)  
+**Citation:** [BibTeX](#citation)
+
+---
+
+## Main Finding
+
+An explicit instruction to *reset* a conversation does not necessarily restore an LLM to its original behavior after the user has applied false conversational pressure.
+
+We study this phenomenon as **sycophancy hysteresis**: behavioral effects of false conversational context that persist even after the original pressure is withdrawn, contradicted, or explicitly reset.
+
+Across controlled factual-dialogue experiments, we find a sharp distinction between:
+
+- **history-preserving recovery operations**, which often fail to restore the model's clean behavior; and
+- **removing the pressure-bearing conversational history**, which produces substantially stronger recovery.
+
+This suggests that correcting the visible instruction is not always equivalent to neutralizing the influence of the conversational state that produced the error.
+
+---
+
+## Why This Matters
+
+Most evaluations of LLM sycophancy ask whether a model follows incorrect user pressure.
+
+This work asks a different question:
+
+**What happens after the pressure stops?**
+
+For reliable multi-turn systems, detecting an initial failure is only part of the problem. A model may continue to behave differently even after receiving a correction, reset instruction, or new evidence.
+
+The evaluation therefore separates:
+
+1. susceptibility to false conversational pressure;
+2. persistence after that pressure;
+3. recoverability under different interventions; and
+4. restoration of the original clean behavior.
+
+The repository provides a reusable evaluation scaffold for studying these post-pressure dynamics in factual dialogue.
+
+---
+
+## Repository
+
 This repository contains the reproducibility artifacts for:
 
 **Reset Is Not Recovery: Evaluating Recoverability from False Conversational Context via Sycophancy Hysteresis**
 
-**Author:** Adi Shnaidman
+The released artifacts include prompt templates, item subsets, advocated wrong-answer selections, aggregate tables, analysis code, and reproducibility checks for the reported metrics.
 
-**Accepted at GroundLM, an EMNLP 2026 Workshop.**
-
-The repository also provides a reusable evaluation scaffold for measuring
-post-pressure recoverability in factual dialogue.
-
-The code is intended to reproduce the reported experiments and to support
-follow-up work using the same protocol.
-
-## What The Paper Studies
-
-The paper evaluates whether an ordinary instruction to reset a conversation actually restores a model's behavior after the user has applied false pressure toward an incorrect answer. The released artifacts cover prompt templates, item subsets, advocated wrong-answer selections, aggregate tables, analysis code, and reproducibility checks for the reported metrics.
-
-This is a reproducibility repository, not a polished general-purpose Python package. The lightweight modules in `src/` document reusable pieces of the protocol, while `src/original_research_scripts/` preserves the research scripts used to build the released aggregates.
+This is a reproducibility repository rather than a polished general-purpose Python package. The lightweight modules in `src/` document reusable pieces of the protocol, while `src/original_research_scripts/` preserves the research scripts used to build the released aggregates.
 
 ## Included Artifacts
 
@@ -96,7 +134,18 @@ See `docs/reproducibility_checklist.md` for commands run, expected output paths,
 
 ## Citation
 
-Use the metadata in `CITATION.cff` when citing this repository or paper.
+If you use this work, please cite:
+
+```bibtex
+@article{shnaidman2026reset,
+  title={Reset Is Not Recovery: Evaluating Recoverability from False Conversational Context via Sycophancy Hysteresis},
+  author={Shnaidman, Adi},
+  journal={arXiv preprint arXiv:2609.33672},
+  year={2026}
+}
+```
+
+The repository also includes machine-readable citation metadata in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
